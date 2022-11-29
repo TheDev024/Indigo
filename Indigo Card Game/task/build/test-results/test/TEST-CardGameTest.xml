@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CardGameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-29T10:15:22" hostname="DESKTOP-JA25RKB" time="0.414">
+  <properties/>
+  <testcase name="start" classname="CardGameTest" time="0.414"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Choose an action (reset, shuffle, get, exit):
+> reset
+Card deck is reset.
+Choose an action (reset, shuffle, get, exit):
+> get
+Number of cards:
+> 10
+A♦ 2♦ 3♦ 4♦ 5♦ 6♦ 7♦ 8♦ 9♦ 10♦
+Choose an action (reset, shuffle, get, exit):
+> get
+Number of cards:
+> 43
+The remaining cards are insufficient to meet the request.
+Choose an action (reset, shuffle, get, exit):
+> reset
+Card deck is reset.
+Choose an action (reset, shuffle, get, exit):
+> get
+Number of cards:
+> 52
+A♦ 2♦ 3♦ 4♦ 5♦ 6♦ 7♦ 8♦ 9♦ 10♦ J♦ Q♦ K♦ A♥ 2♥ 3♥ 4♥ 5♥ 6♥ 7♥ 8♥ 9♥ 10♥ J♥ Q♥ K♥ A♠ 2♠ 3♠ 4♠ 5♠ 6♠ 7♠ 8♠ 9♠ 10♠ J♠ Q♠ K♠ A♣ 2♣ 3♣ 4♣ 5♣ 6♣ 7♣ 8♣ 9♣ 10♣ J♣ Q♣ K♣
+Choose an action (reset, shuffle, get, exit):
+> get
+Number of cards:
+> 1
+The remaining cards are insufficient to meet the request.
+Choose an action (reset, shuffle, get, exit):
+> exit
+Bye
+?[1;31m
+Start test 2?[0m
+Choose an action (reset, shuffle, get, exit):
+> get
+Number of cards:
+> 0
+Invalid number of cards.
+Choose an action (reset, shuffle, get, exit):
+> get
+Number of cards:
+> one
+Invalid number of cards.
+Choose an action (reset, shuffle, get, exit):
+> get
+Number of cards:
+> 53
+Invalid number of cards.
+Choose an action (reset, shuffle, get, exit):
+> exit
+Bye
+?[1;31m
+Start test 3?[0m
+Choose an action (reset, shuffle, get, exit):
+> action
+Wrong action.
+Choose an action (reset, shuffle, get, exit):
+> game
+Wrong action.
+Choose an action (reset, shuffle, get, exit):
+> exit
+Bye
+?[1;31m
+Start test 4?[0m
+Choose an action (reset, shuffle, get, exit):
+> reset
+Card deck is reset.
+Choose an action (reset, shuffle, get, exit):
+> shuffle
+Card deck is shuffled.
+Choose an action (reset, shuffle, get, exit):
+> get
+Number of cards:
+> 52
+Q♠ 4♠ 10♣ 3♠ Q♣ 5♠ 4♦ 6♥ 8♦ 5♦ J♦ 6♦ 8♠ 4♣ 2♥ 5♥ J♥ 10♦ 10♥ 9♦ J♠ 5♣ 10♠ Q♥ K♣ 3♦ 8♥ 2♦ 2♣ K♦ A♥ J♣ 9♣ A♠ K♥ 7♦ 4♥ 6♣ K♠ 9♠ 7♠ 9♥ Q♦ A♦ 2♠ 8♣ A♣ 3♥ 3♣ 6♠ 7♥ 7♣
+Choose an action (reset, shuffle, get, exit):
+> exit
+Bye
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
