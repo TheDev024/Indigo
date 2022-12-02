@@ -700,6 +700,9 @@ files:
         return count
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/214/stages/1075/implement#comment
-status: Unchecked
+feedback_link: https://hyperskill.org/learn/step/16511#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 02 Dec 2022 20:17:09 UTC"
 record: -1
