@@ -45,7 +45,6 @@ data class Computer(
 ) : Player(name, hand, wonCards, score) {
     override fun play(numberOfCards: Int, topCard: Card?): Card {
         super.play(numberOfCards, topCard)
-        println(hand.joinToString(" "))
 
         var sameSuits = Suit.values().associateWith { mutableListOf<Card>() }
         var sameRanks = Rank.values().associateWith { mutableListOf<Card>() }
@@ -114,9 +113,10 @@ class IndigoCardGame {
         }
         cards = deck.toList()
         deck.shuffle()
+        startGame()
     }
 
-    fun startGame() {
+    private fun startGame() {
         println("Indigo Card Game")
 
         val firstPlayer = firstPlayer()
@@ -201,6 +201,5 @@ class IndigoCardGame {
 }
 
 fun main() {
-    val game = IndigoCardGame()
-    game.startGame()
+    IndigoCardGame()
 }
