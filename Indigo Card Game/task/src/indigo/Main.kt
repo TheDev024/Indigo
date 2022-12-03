@@ -8,7 +8,10 @@ val random = Random(24)
 open class Player(
     open val name: String, open val hand: MutableList<Card>, open val wonCards: Stack<Card>, open var score: Int
 ) {
-    open fun play(): Card? = null
+    open fun play(numberOfCards: Int, topCard: Card?): Card? {
+        println(if (numberOfCards == 0) "No cards on the table" else "\n$numberOfCards cards on the table, and the top card is $topCard")
+        return null
+    }
 }
 
 data class User(
@@ -17,10 +20,11 @@ data class User(
     override val wonCards: Stack<Card> = Stack(),
     override var score: Int = 0
 ) : Player(name, hand, wonCards, score) {
-    override fun play(): Card? {
+    override fun play(numberOfCards: Int, topCard: Card?): Card? {
+        super.play(numberOfCards, topCard)
         println("Cards in hand: ${hand.joinToString(" ") { "${hand.indexOf(it) + 1})$it" }}")
         val input = chooseCard()
-        if (input == "exit") return super.play()
+        if (input == "exit") return null
         val index = input.toInt() - 1
         return hand.removeAt(index)
     }
@@ -39,12 +43,38 @@ data class Computer(
     override val wonCards: Stack<Card> = Stack(),
     override var score: Int = 0
 ) : Player(name, hand, wonCards, score) {
-    override fun play(): Card {
-        val index = random.nextInt(hand.size)
+    override fun play(numberOfCards: Int, topCard: Card?): Card {
+        super.play(numberOfCards, topCard)
+        println(hand.joinToString(" "))
+
+        var sameSuits = Suit.values().associateWith { mutableListOf<Card>() }
+        var sameRanks = Rank.values().associateWith { mutableListOf<Card>() }
+
+        hand.forEach { card ->
+            sameSuits[card.suit]!!.add(card)
+            sameRanks[card.rank]!!.add(card)
+        }
+
+        sameSuits = sameSuits.filter { it.value.isNotEmpty() }
+        sameRanks = sameRanks.filter { it.value.isNotEmpty() }
+
+        val index: Int =
+            if (numberOfCards == 0) hand.indexOf((sameSuits.values.plus(sameRanks.values).find { it.size > 1 }
+                ?: hand).choice()) else {
+                val candidates =
+                    sameSuits.filter { it.key == topCard!!.suit }.values.plus(sameRanks.filter { it.key == topCard!!.rank }.values)
+                if (candidates.isNotEmpty()) {
+                    hand.indexOf(
+                        candidates.find { it.size > 1 }?.choice() ?: candidates.choice().choice()
+                    )
+                } else hand.indexOf((sameSuits.values.plus(sameRanks.values).find { it.size > 1 } ?: hand).choice())
+            }
         println("Computer plays ${hand[index]}")
         return hand.removeAt(index)
     }
 }
+
+fun <E> List<E>.choice() = this[random.nextInt(this.size)]
 
 enum class Suit(val value: Char) {
     DIAMOND('\u2666'), HEART('\u2665'), SPADE('\u2660'), CLUB('\u2663'),
@@ -107,13 +137,13 @@ class IndigoCardGame {
                             )
                         ) lastWinner.score++
                     }
-
-                    if (user.wonCards.size > computer.wonCards.size) user.score += 3
-                    else if (user.wonCards.size < computer.wonCards.size) computer.score += 3
-                    else firstPlayer.score += 3
-
-                    printState()
                 }
+
+                if (user.wonCards.size > computer.wonCards.size) user.score += 3
+                else if (user.wonCards.size < computer.wonCards.size) computer.score += 3
+                else firstPlayer.score += 3
+
+                printState()
                 break
             }
 
@@ -122,8 +152,7 @@ class IndigoCardGame {
                 dealPlayerCards(user)
             }
 
-            println(if (table.empty()) "No cards on the table" else "\n${table.size} cards on the table, and the top card is ${table.peek()}")
-            val card = currentPlayer.play() ?: break
+            val card = currentPlayer.play(table.size, if (table.isNotEmpty()) table.peek() else null) ?: break
 
             if (!table.empty()) {
                 val topCard = table.peek()

@@ -1,451 +1,1307 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CardGameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-02T20:17:07" hostname="DESKTOP-JA25RKB" time="1.673">
+<testsuite name="CardGameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-03T12:55:47" hostname="DESKTOP-JA25RKB" time="6.438">
   <properties/>
-  <testcase name="start" classname="CardGameTest" time="1.673"/>
+  <testcase name="start" classname="CardGameTest" time="6.438"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Indigo Card Game
 Play first?
 > yes
-Initial cards on the table: 4♦ 5♦ Q♥ 2♥
-4 cards on the table, and the top card is 2♥
-Cards in hand: 1)5♠ 2)7♦ 3)9♠ 4)J♥ 5)10♥ 6)7♣
+Initial cards on the table: 3♠ 2♣ K♥ J♦
+4 cards on the table, and the top card is J♦
+Cards in hand: 1)Q♥ 2)9♣ 3)2♦ 4)2♠ 5)7♠ 6)8♥
 Choose a card to play (1-6):
-> 1
+> 3
+Player wins cards
+Score: Player 2 - Computer 0
+Cards: Player 5 - Computer 0
+No cards on the table
+7♥ 7♣ 8♣ Q♦ 3♥ 7♦
+Computer plays 7♦
 
-5 cards on the table, and the top card is 5♠
-Computer plays A♣
-
-6 cards on the table, and the top card is A♣
-Cards in hand: 1)7♦ 2)9♠ 3)J♥ 4)10♥ 5)7♣
+1 cards on the table, and the top card is 7♦
+Cards in hand: 1)Q♥ 2)9♣ 3)2♠ 4)7♠ 5)8♥
 Choose a card to play (1-5):
-> 1
+> 4
+Player wins cards
+Score: Player 2 - Computer 0
+Cards: Player 7 - Computer 0
+No cards on the table
+7♥ 7♣ 8♣ Q♦ 3♥
+Computer plays 3♥
 
-7 cards on the table, and the top card is 7♦
-Computer plays K♠
-
-8 cards on the table, and the top card is K♠
-Cards in hand: 1)9♠ 2)J♥ 3)10♥ 4)7♣
+1 cards on the table, and the top card is 3♥
+Cards in hand: 1)Q♥ 2)9♣ 3)2♠ 4)8♥
 Choose a card to play (1-4):
 > 1
 Player wins cards
 Score: Player 3 - Computer 0
 Cards: Player 9 - Computer 0
 No cards on the table
-Computer plays 2♠
+7♥ 7♣ 8♣ Q♦
+Computer plays 8♣
 
-1 cards on the table, and the top card is 2♠
-Cards in hand: 1)J♥ 2)10♥ 3)7♣
+1 cards on the table, and the top card is 8♣
+Cards in hand: 1)9♣ 2)2♠ 3)8♥
 Choose a card to play (1-3):
-> 1
-
-2 cards on the table, and the top card is J♥
-Computer plays 9♣
-
-3 cards on the table, and the top card is 9♣
-Cards in hand: 1)10♥ 2)7♣
-Choose a card to play (1-2):
-> 1
-
-4 cards on the table, and the top card is 10♥
-Computer plays K♦
-
-5 cards on the table, and the top card is K♦
-Cards in hand: 1)7♣
-Choose a card to play (1-1):
-> 1
-
-6 cards on the table, and the top card is 7♣
-Computer plays J♠
-
-7 cards on the table, and the top card is J♠
-Cards in hand: 1)3♠ 2)8♠ 3)9♦ 4)8♣ 5)7♥ 6)A♠
-Choose a card to play (1-6):
 > 1
 Player wins cards
-Score: Player 7 - Computer 0
-Cards: Player 17 - Computer 0
+Score: Player 3 - Computer 0
+Cards: Player 11 - Computer 0
 No cards on the table
-Computer plays 2♣
-
-1 cards on the table, and the top card is 2♣
-Cards in hand: 1)8♠ 2)9♦ 3)8♣ 4)7♥ 5)A♠
-Choose a card to play (1-5):
-> 1
-
-2 cards on the table, and the top card is 8♠
-Computer plays 4♣
-
-3 cards on the table, and the top card is 4♣
-Cards in hand: 1)9♦ 2)8♣ 3)7♥ 4)A♠
-Choose a card to play (1-4):
-> 1
-
-4 cards on the table, and the top card is 9♦
-Computer plays 4♠
-
-5 cards on the table, and the top card is 4♠
-Cards in hand: 1)8♣ 2)7♥ 3)A♠
-Choose a card to play (1-3):
-> 1
-
-6 cards on the table, and the top card is 8♣
-Computer plays 6♣
-Computer wins cards
-Score: Player 7 - Computer 0
-Cards: Player 17 - Computer 7
-No cards on the table
-Cards in hand: 1)7♥ 2)A♠
-Choose a card to play (1-2):
-> 1
+7♥ 7♣ Q♦
+Computer plays 7♥
 
 1 cards on the table, and the top card is 7♥
-Computer plays 10♠
-
-2 cards on the table, and the top card is 10♠
-Cards in hand: 1)A♠
-Choose a card to play (1-1):
-> 1
-Player wins cards
-Score: Player 9 - Computer 0
-Cards: Player 20 - Computer 7
-No cards on the table
-Computer plays A♦
-
-1 cards on the table, and the top card is A♦
-Cards in hand: 1)K♥ 2)10♣ 3)6♥ 4)3♦ 5)4♥ 6)9♥
-Choose a card to play (1-6):
-> 1
-
-2 cards on the table, and the top card is K♥
-Computer plays 7♠
-
-3 cards on the table, and the top card is 7♠
-Cards in hand: 1)10♣ 2)6♥ 3)3♦ 4)4♥ 5)9♥
-Choose a card to play (1-5):
-> 1
-
-4 cards on the table, and the top card is 10♣
-Computer plays J♣
-Computer wins cards
-Score: Player 9 - Computer 4
-Cards: Player 20 - Computer 12
-No cards on the table
-Cards in hand: 1)6♥ 2)3♦ 3)4♥ 4)9♥
-Choose a card to play (1-4):
-> 1
-
-1 cards on the table, and the top card is 6♥
-Computer plays 6♠
-Computer wins cards
-Score: Player 9 - Computer 4
-Cards: Player 20 - Computer 14
-No cards on the table
-Cards in hand: 1)3♦ 2)4♥ 3)9♥
-Choose a card to play (1-3):
-> 1
-
-1 cards on the table, and the top card is 3♦
-Computer plays 3♥
-Computer wins cards
-Score: Player 9 - Computer 4
-Cards: Player 20 - Computer 16
-No cards on the table
-Cards in hand: 1)4♥ 2)9♥
-Choose a card to play (1-2):
-> 1
-
-1 cards on the table, and the top card is 4♥
-Computer plays 5♥
-Computer wins cards
-Score: Player 9 - Computer 4
-Cards: Player 20 - Computer 18
-No cards on the table
-Cards in hand: 1)9♥
-Choose a card to play (1-1):
-> 1
-
-1 cards on the table, and the top card is 9♥
-Computer plays 5♣
-
-2 cards on the table, and the top card is 5♣
-Cards in hand: 1)8♦ 2)A♥ 3)8♥ 4)K♣ 5)3♣ 6)2♦
-Choose a card to play (1-6):
-> 1
-
-3 cards on the table, and the top card is 8♦
-Computer plays 10♦
-Computer wins cards
-Score: Player 9 - Computer 5
-Cards: Player 20 - Computer 22
-No cards on the table
-Cards in hand: 1)A♥ 2)8♥ 3)K♣ 4)3♣ 5)2♦
-Choose a card to play (1-5):
-> 1
-
-1 cards on the table, and the top card is A♥
-Computer plays 6♦
-
-2 cards on the table, and the top card is 6♦
-Cards in hand: 1)8♥ 2)K♣ 3)3♣ 4)2♦
-Choose a card to play (1-4):
-> 1
-
-3 cards on the table, and the top card is 8♥
-Computer plays J♦
-
-4 cards on the table, and the top card is J♦
-Cards in hand: 1)K♣ 2)3♣ 3)2♦
-Choose a card to play (1-3):
-> 1
-
-5 cards on the table, and the top card is K♣
-Computer plays Q♦
-
-6 cards on the table, and the top card is Q♦
-Cards in hand: 1)3♣ 2)2♦
-Choose a card to play (1-2):
-> 1
-
-7 cards on the table, and the top card is 3♣
-Computer plays Q♠
-
-8 cards on the table, and the top card is Q♠
-Cards in hand: 1)2♦
-Choose a card to play (1-1):
-> 1
-
-9 cards on the table, and the top card is 2♦
-Computer plays Q♣
-
-10 cards on the table, and the top card is Q♣
-Score: Player 9 - Computer 14
-Cards: Player 20 - Computer 32
-Game Over
-?[1;31m
-Start test 2?[0m
-Indigo Card Game
-Play first?
-> yes
-Initial cards on the table: 10♥ 9♦ 3♠ 6♦
-4 cards on the table, and the top card is 6♦
-Cards in hand: 1)6♠ 2)K♦ 3)5♣ 4)6♥ 5)9♥ 6)K♣
-Choose a card to play (1-6):
-> 6
-
-5 cards on the table, and the top card is K♣
-Computer plays 7♣
-Computer wins cards
-Score: Player 0 - Computer 2
-Cards: Player 0 - Computer 6
-No cards on the table
-Cards in hand: 1)6♠ 2)K♦ 3)5♣ 4)6♥ 5)9♥
-Choose a card to play (1-5):
-> 5
-
-1 cards on the table, and the top card is 9♥
-Computer plays 4♣
-
-2 cards on the table, and the top card is 4♣
-Cards in hand: 1)6♠ 2)K♦ 3)5♣ 4)6♥
-Choose a card to play (1-4):
-> 4
-
-3 cards on the table, and the top card is 6♥
-Computer plays 7♦
-
-4 cards on the table, and the top card is 7♦
-Cards in hand: 1)6♠ 2)K♦ 3)5♣
-Choose a card to play (1-3):
-> 3
-
-5 cards on the table, and the top card is 5♣
-Computer plays 10♦
-
-6 cards on the table, and the top card is 10♦
-Cards in hand: 1)6♠ 2)K♦
+Cards in hand: 1)2♠ 2)8♥
 Choose a card to play (1-2):
 > 2
 Player wins cards
-Score: Player 2 - Computer 2
-Cards: Player 7 - Computer 6
+Score: Player 3 - Computer 0
+Cards: Player 13 - Computer 0
 No cards on the table
+7♣ Q♦
+Computer plays 7♣
+
+1 cards on the table, and the top card is 7♣
+Cards in hand: 1)2♠
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is 2♠
+Q♦
+Computer plays Q♦
+
+3 cards on the table, and the top card is Q♦
+Cards in hand: 1)K♠ 2)8♠ 3)A♠ 4)6♠ 5)J♠ 6)10♦
+Choose a card to play (1-6):
+> 6
+Player wins cards
+Score: Player 5 - Computer 0
+Cards: Player 17 - Computer 0
+No cards on the table
+4♠ 5♠ 9♥ K♣ 6♦ 4♥
+Computer plays 9♥
+
+1 cards on the table, and the top card is 9♥
+Cards in hand: 1)K♠ 2)8♠ 3)A♠ 4)6♠ 5)J♠
+Choose a card to play (1-5):
+> 1
+
+2 cards on the table, and the top card is K♠
+4♠ 5♠ K♣ 6♦ 4♥
+Computer plays 5♠
+Computer wins cards
+Score: Player 5 - Computer 1
+Cards: Player 17 - Computer 3
+No cards on the table
+Cards in hand: 1)8♠ 2)A♠ 3)6♠ 4)J♠
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 8♠
+4♠ K♣ 6♦ 4♥
+Computer plays 4♠
+Computer wins cards
+Score: Player 5 - Computer 1
+Cards: Player 17 - Computer 5
+No cards on the table
+Cards in hand: 1)A♠ 2)6♠ 3)J♠
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is A♠
+K♣ 6♦ 4♥
+Computer plays K♣
+
+2 cards on the table, and the top card is K♣
+Cards in hand: 1)6♠ 2)J♠
+Choose a card to play (1-2):
+> 1
+
+3 cards on the table, and the top card is 6♠
+6♦ 4♥
+Computer plays 6♦
+Computer wins cards
+Score: Player 5 - Computer 3
+Cards: Player 17 - Computer 9
+No cards on the table
+Cards in hand: 1)J♠
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is J♠
+4♥
+Computer plays 4♥
+
+2 cards on the table, and the top card is 4♥
+Cards in hand: 1)4♣ 2)8♦ 3)10♣ 4)2♥ 5)5♥ 6)A♥
+Choose a card to play (1-6):
+> 4
+Player wins cards
+Score: Player 6 - Computer 3
+Cards: Player 20 - Computer 9
+No cards on the table
+6♣ A♦ A♣ J♥ 3♣ 10♠
+Computer plays A♣
+
+1 cards on the table, and the top card is A♣
+Cards in hand: 1)4♣ 2)8♦ 3)10♣ 4)5♥ 5)A♥
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 7 - Computer 3
+Cards: Player 22 - Computer 9
+No cards on the table
+6♣ A♦ J♥ 3♣ 10♠
+Computer plays 6♣
+
+1 cards on the table, and the top card is 6♣
+Cards in hand: 1)8♦ 2)10♣ 3)5♥ 4)A♥
+Choose a card to play (1-4):
+> 2
+Player wins cards
+Score: Player 8 - Computer 3
+Cards: Player 24 - Computer 9
+No cards on the table
+A♦ J♥ 3♣ 10♠
+Computer plays J♥
+
+1 cards on the table, and the top card is J♥
+Cards in hand: 1)8♦ 2)5♥ 3)A♥
+Choose a card to play (1-3):
+> 2
+Player wins cards
+Score: Player 9 - Computer 3
+Cards: Player 26 - Computer 9
+No cards on the table
+A♦ 3♣ 10♠
 Computer plays 3♣
 
 1 cards on the table, and the top card is 3♣
-Cards in hand: 1)6♠
-Choose a card to play (1-1):
+Cards in hand: 1)8♦ 2)A♥
+Choose a card to play (1-2):
 > 1
 
-2 cards on the table, and the top card is 6♠
-Computer plays 2♠
-Computer wins cards
-Score: Player 2 - Computer 2
-Cards: Player 7 - Computer 9
-No cards on the table
-Cards in hand: 1)7♠ 2)Q♥ 3)J♠ 4)9♣ 5)8♠ 6)A♣
-Choose a card to play (1-6):
-> 6
-
-1 cards on the table, and the top card is A♣
-Computer plays 9♠
-
-2 cards on the table, and the top card is 9♠
-Cards in hand: 1)7♠ 2)Q♥ 3)J♠ 4)9♣ 5)8♠
-Choose a card to play (1-5):
-> 5
-Player wins cards
-Score: Player 3 - Computer 2
-Cards: Player 10 - Computer 9
-No cards on the table
+2 cards on the table, and the top card is 8♦
+A♦ 10♠
 Computer plays A♦
-
-1 cards on the table, and the top card is A♦
-Cards in hand: 1)7♠ 2)Q♥ 3)J♠ 4)9♣
-Choose a card to play (1-4):
-> 4
-
-2 cards on the table, and the top card is 9♣
-Computer plays 2♥
-
-3 cards on the table, and the top card is 2♥
-Cards in hand: 1)7♠ 2)Q♥ 3)J♠
-Choose a card to play (1-3):
-> 3
-
-4 cards on the table, and the top card is J♠
-Computer plays J♥
 Computer wins cards
-Score: Player 3 - Computer 5
-Cards: Player 10 - Computer 14
+Score: Player 9 - Computer 4
+Cards: Player 26 - Computer 12
 No cards on the table
-Cards in hand: 1)7♠ 2)Q♥
-Choose a card to play (1-2):
-> 2
-
-1 cards on the table, and the top card is Q♥
-Computer plays 7♥
-Computer wins cards
-Score: Player 3 - Computer 6
-Cards: Player 10 - Computer 16
-No cards on the table
-Cards in hand: 1)7♠
-Choose a card to play (1-1):
-> 1
-
-1 cards on the table, and the top card is 7♠
-Computer plays 5♥
-
-2 cards on the table, and the top card is 5♥
-Cards in hand: 1)3♦ 2)4♦ 3)2♦ 4)10♠ 5)2♣ 6)8♦
-Choose a card to play (1-6):
-> 6
-
-3 cards on the table, and the top card is 8♦
-Computer plays Q♦
-Computer wins cards
-Score: Player 3 - Computer 7
-Cards: Player 10 - Computer 20
-No cards on the table
-Cards in hand: 1)3♦ 2)4♦ 3)2♦ 4)10♠ 5)2♣
-Choose a card to play (1-5):
-> 5
-
-1 cards on the table, and the top card is 2♣
-Computer plays 5♠
-
-2 cards on the table, and the top card is 5♠
-Cards in hand: 1)3♦ 2)4♦ 3)2♦ 4)10♠
-Choose a card to play (1-4):
-> 4
-Player wins cards
-Score: Player 4 - Computer 7
-Cards: Player 13 - Computer 20
-No cards on the table
-Computer plays 4♥
-
-1 cards on the table, and the top card is 4♥
-Cards in hand: 1)3♦ 2)4♦ 3)2♦
-Choose a card to play (1-3):
-> 3
-
-2 cards on the table, and the top card is 2♦
-Computer plays A♠
-
-3 cards on the table, and the top card is A♠
-Cards in hand: 1)3♦ 2)4♦
-Choose a card to play (1-2):
-> 2
-
-4 cards on the table, and the top card is 4♦
-Computer plays 4♠
-Computer wins cards
-Score: Player 4 - Computer 8
-Cards: Player 13 - Computer 25
-No cards on the table
-Cards in hand: 1)3♦
-Choose a card to play (1-1):
-> 1
-
-1 cards on the table, and the top card is 3♦
-Computer plays 10♣
-
-2 cards on the table, and the top card is 10♣
-Cards in hand: 1)A♥ 2)5♦ 3)8♥ 4)K♥ 5)J♦ 6)K♠
-Choose a card to play (1-6):
-> 6
-
-3 cards on the table, and the top card is K♠
-Computer plays 3♥
-
-4 cards on the table, and the top card is 3♥
-Cards in hand: 1)A♥ 2)5♦ 3)8♥ 4)K♥ 5)J♦
-Choose a card to play (1-5):
-> 5
-
-5 cards on the table, and the top card is J♦
-Computer plays Q♠
-
-6 cards on the table, and the top card is Q♠
-Cards in hand: 1)A♥ 2)5♦ 3)8♥ 4)K♥
-Choose a card to play (1-4):
-> 4
-
-7 cards on the table, and the top card is K♥
-Computer plays J♣
-
-8 cards on the table, and the top card is J♣
-Cards in hand: 1)A♥ 2)5♦ 3)8♥
-Choose a card to play (1-3):
-> 3
-
-9 cards on the table, and the top card is 8♥
-Computer plays 8♣
-Computer wins cards
-Score: Player 4 - Computer 14
-Cards: Player 13 - Computer 35
-No cards on the table
-Cards in hand: 1)A♥ 2)5♦
-Choose a card to play (1-2):
-> 2
-
-1 cards on the table, and the top card is 5♦
-Computer plays 6♣
-
-2 cards on the table, and the top card is 6♣
 Cards in hand: 1)A♥
 Choose a card to play (1-1):
 > 1
 
-3 cards on the table, and the top card is A♥
+1 cards on the table, and the top card is A♥
+10♠
+Computer plays 10♠
+
+2 cards on the table, and the top card is 10♠
+Cards in hand: 1)5♦ 2)9♦ 3)10♥ 4)6♥ 5)3♦ 6)9♠
+Choose a card to play (1-6):
+> 3
+Player wins cards
+Score: Player 12 - Computer 4
+Cards: Player 29 - Computer 12
+No cards on the table
+K♦ 5♣ Q♣ Q♠ 4♦ J♣
+Computer plays 4♦
+
+1 cards on the table, and the top card is 4♦
+Cards in hand: 1)5♦ 2)9♦ 3)6♥ 4)3♦ 5)9♠
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 12 - Computer 4
+Cards: Player 31 - Computer 12
+No cards on the table
+K♦ 5♣ Q♣ Q♠ J♣
 Computer plays Q♣
 
-4 cards on the table, and the top card is Q♣
+1 cards on the table, and the top card is Q♣
+Cards in hand: 1)9♦ 2)6♥ 3)3♦ 4)9♠
+Choose a card to play (1-4):
+> 1
+
+2 cards on the table, and the top card is 9♦
+K♦ 5♣ Q♠ J♣
+Computer plays K♦
+Computer wins cards
+Score: Player 12 - Computer 6
+Cards: Player 31 - Computer 15
+No cards on the table
+Cards in hand: 1)6♥ 2)3♦ 3)9♠
+Choose a card to play (1-3):
+> 2
+
+1 cards on the table, and the top card is 3♦
+5♣ Q♠ J♣
+Computer plays 5♣
+
+2 cards on the table, and the top card is 5♣
+Cards in hand: 1)6♥ 2)9♠
+Choose a card to play (1-2):
+> 1
+
+3 cards on the table, and the top card is 6♥
+Q♠ J♣
+Computer plays Q♠
+
+4 cards on the table, and the top card is Q♠
+Cards in hand: 1)9♠
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 13 - Computer 6
+Cards: Player 36 - Computer 15
+No cards on the table
+J♣
+Computer plays J♣
+
+1 cards on the table, and the top card is J♣
+Score: Player 17 - Computer 6
+Cards: Player 37 - Computer 15
+Game Over
+Indigo Card Game
+Play first?
+> yes
+Initial cards on the table: J♣ Q♠ 5♦ 4♦
+4 cards on the table, and the top card is 4♦
+Cards in hand: 1)2♠ 2)A♠ 3)J♠ 4)2♦ 5)10♣ 6)6♠
+Choose a card to play (1-6):
+> 4
+Player wins cards
+Score: Player 2 - Computer 0
+Cards: Player 5 - Computer 0
+No cards on the table
+8♣ 2♥ Q♣ J♦ 8♦ 5♥
+Computer plays 8♦
+
+1 cards on the table, and the top card is 8♦
+Cards in hand: 1)2♠ 2)A♠ 3)J♠ 4)10♣ 5)6♠
+Choose a card to play (1-5):
+> 1
+
+2 cards on the table, and the top card is 2♠
+8♣ 2♥ Q♣ J♦ 5♥
+Computer plays 2♥
+Computer wins cards
+Score: Player 2 - Computer 0
+Cards: Player 5 - Computer 3
+No cards on the table
+Cards in hand: 1)A♠ 2)J♠ 3)10♣ 4)6♠
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is A♠
+8♣ Q♣ J♦ 5♥
+Computer plays 8♣
+
+2 cards on the table, and the top card is 8♣
+Cards in hand: 1)J♠ 2)10♣ 3)6♠
+Choose a card to play (1-3):
+> 2
+Player wins cards
+Score: Player 4 - Computer 0
+Cards: Player 8 - Computer 3
+No cards on the table
+Q♣ J♦ 5♥
+Computer plays 5♥
+
+1 cards on the table, and the top card is 5♥
+Cards in hand: 1)J♠ 2)6♠
+Choose a card to play (1-2):
+> 1
+
+2 cards on the table, and the top card is J♠
+Q♣ J♦
+Computer plays J♦
+Computer wins cards
+Score: Player 4 - Computer 2
+Cards: Player 8 - Computer 6
+No cards on the table
+Cards in hand: 1)6♠
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 6♠
+Q♣
+Computer plays Q♣
+
+2 cards on the table, and the top card is Q♣
+Cards in hand: 1)A♥ 2)K♠ 3)6♦ 4)10♦ 5)5♠ 6)4♥
+Choose a card to play (1-6):
+> 2
+
+3 cards on the table, and the top card is K♠
+7♠ K♦ 10♥ K♥ 6♣ Q♦
+Computer plays K♥
+Computer wins cards
+Score: Player 4 - Computer 5
+Cards: Player 8 - Computer 10
+No cards on the table
+Cards in hand: 1)A♥ 2)6♦ 3)10♦ 4)5♠ 5)4♥
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is A♥
+7♠ K♦ 10♥ 6♣ Q♦
+Computer plays 10♥
+Computer wins cards
+Score: Player 4 - Computer 7
+Cards: Player 8 - Computer 12
+No cards on the table
+Cards in hand: 1)6♦ 2)10♦ 3)5♠ 4)4♥
+Choose a card to play (1-4):
+> 2
+
+1 cards on the table, and the top card is 10♦
+7♠ K♦ 6♣ Q♦
+Computer plays K♦
+Computer wins cards
+Score: Player 4 - Computer 9
+Cards: Player 8 - Computer 14
+No cards on the table
+Cards in hand: 1)6♦ 2)5♠ 3)4♥
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 6♦
+7♠ 6♣ Q♦
+Computer plays 6♣
+Computer wins cards
+Score: Player 4 - Computer 9
+Cards: Player 8 - Computer 16
+No cards on the table
+Cards in hand: 1)5♠ 2)4♥
+Choose a card to play (1-2):
+> 1
+
+1 cards on the table, and the top card is 5♠
+7♠ Q♦
+Computer plays 7♠
+Computer wins cards
+Score: Player 4 - Computer 9
+Cards: Player 8 - Computer 18
+No cards on the table
+Cards in hand: 1)4♥
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 4♥
+Q♦
+Computer plays Q♦
+
+2 cards on the table, and the top card is Q♦
+Cards in hand: 1)10♠ 2)3♠ 3)5♣ 4)6♥ 5)J♥ 6)7♣
+Choose a card to play (1-6):
+> 1
+
+3 cards on the table, and the top card is 10♠
+9♦ 3♥ 8♠ 9♣ 9♥ 3♣
+Computer plays 8♠
+Computer wins cards
+Score: Player 4 - Computer 11
+Cards: Player 8 - Computer 22
+No cards on the table
+Cards in hand: 1)3♠ 2)5♣ 3)6♥ 4)J♥ 5)7♣
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is 3♠
+9♦ 3♥ 9♣ 9♥ 3♣
+Computer plays 3♣
+Computer wins cards
+Score: Player 4 - Computer 11
+Cards: Player 8 - Computer 24
+No cards on the table
+Cards in hand: 1)5♣ 2)6♥ 3)J♥ 4)7♣
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 5♣
+9♦ 3♥ 9♣ 9♥
+Computer plays 9♣
+Computer wins cards
+Score: Player 4 - Computer 11
+Cards: Player 8 - Computer 26
+No cards on the table
+Cards in hand: 1)6♥ 2)J♥ 3)7♣
+Choose a card to play (1-3):
+> 3
+
+1 cards on the table, and the top card is 7♣
+9♦ 3♥ 9♥
+Computer plays 3♥
+
+2 cards on the table, and the top card is 3♥
+Cards in hand: 1)6♥ 2)J♥
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 4 - Computer 11
+Cards: Player 11 - Computer 26
+No cards on the table
+9♦ 9♥
+Computer plays 9♦
+
+1 cards on the table, and the top card is 9♦
+Cards in hand: 1)J♥
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is J♥
+9♥
+Computer plays 9♥
+Computer wins cards
+Score: Player 4 - Computer 12
+Cards: Player 11 - Computer 29
+No cards on the table
+Cards in hand: 1)7♥ 2)9♠ 3)4♠ 4)K♣ 5)Q♥ 6)2♣
+Choose a card to play (1-6):
+> 1
+
+1 cards on the table, and the top card is 7♥
+4♣ 8♥ 3♦ A♣ 7♦ A♦
+Computer plays 8♥
+Computer wins cards
+Score: Player 4 - Computer 12
+Cards: Player 11 - Computer 31
+No cards on the table
+Cards in hand: 1)9♠ 2)4♠ 3)K♣ 4)Q♥ 5)2♣
+Choose a card to play (1-5):
+> 4
+
+1 cards on the table, and the top card is Q♥
+4♣ 3♦ A♣ 7♦ A♦
+Computer plays A♦
+
+2 cards on the table, and the top card is A♦
+Cards in hand: 1)9♠ 2)4♠ 3)K♣ 4)2♣
+Choose a card to play (1-4):
+> 1
+
+3 cards on the table, and the top card is 9♠
+4♣ 3♦ A♣ 7♦
+Computer plays 7♦
+
+4 cards on the table, and the top card is 7♦
+Cards in hand: 1)4♠ 2)K♣ 3)2♣
+Choose a card to play (1-3):
+> 2
+
+5 cards on the table, and the top card is K♣
+4♣ 3♦ A♣
+Computer plays A♣
+Computer wins cards
+Score: Player 4 - Computer 16
+Cards: Player 11 - Computer 37
+No cards on the table
+Cards in hand: 1)4♠ 2)2♣
+Choose a card to play (1-2):
+> 2
+
+1 cards on the table, and the top card is 2♣
+4♣ 3♦
+Computer plays 4♣
+Computer wins cards
+Score: Player 4 - Computer 16
+Cards: Player 11 - Computer 39
+No cards on the table
+Cards in hand: 1)4♠
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 4♠
+3♦
+Computer plays 3♦
+
+2 cards on the table, and the top card is 3♦
 Score: Player 4 - Computer 19
-Cards: Player 13 - Computer 39
+Cards: Player 11 - Computer 41
+Game Over
+Indigo Card Game
+Play first?
+> yes
+Initial cards on the table: 2♥ Q♠ A♥ 6♣
+4 cards on the table, and the top card is 6♣
+Cards in hand: 1)Q♦ 2)7♦ 3)9♠ 4)6♦ 5)10♦ 6)4♣
+Choose a card to play (1-6):
+> 4
+Player wins cards
+Score: Player 2 - Computer 0
+Cards: Player 5 - Computer 0
+No cards on the table
+K♥ 6♥ 8♣ 2♠ K♦ 8♠
+Computer plays 6♥
+
+1 cards on the table, and the top card is 6♥
+Cards in hand: 1)Q♦ 2)7♦ 3)9♠ 4)10♦ 5)4♣
+Choose a card to play (1-5):
+> 1
+
+2 cards on the table, and the top card is Q♦
+K♥ 8♣ 2♠ K♦ 8♠
+Computer plays K♦
+Computer wins cards
+Score: Player 2 - Computer 2
+Cards: Player 5 - Computer 3
+No cards on the table
+Cards in hand: 1)7♦ 2)9♠ 3)10♦ 4)4♣
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 7♦
+K♥ 8♣ 2♠ 8♠
+Computer plays 2♠
+
+2 cards on the table, and the top card is 2♠
+Cards in hand: 1)9♠ 2)10♦ 3)4♣
+Choose a card to play (1-3):
+> 1
+Player wins cards
+Score: Player 2 - Computer 2
+Cards: Player 8 - Computer 3
+No cards on the table
+K♥ 8♣ 8♠
+Computer plays 8♣
+
+1 cards on the table, and the top card is 8♣
+Cards in hand: 1)10♦ 2)4♣
+Choose a card to play (1-2):
+> 2
+Player wins cards
+Score: Player 2 - Computer 2
+Cards: Player 10 - Computer 3
+No cards on the table
+K♥ 8♠
+Computer plays K♥
+
+1 cards on the table, and the top card is K♥
+Cards in hand: 1)10♦
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is 10♦
+8♠
+Computer plays 8♠
+
+3 cards on the table, and the top card is 8♠
+Cards in hand: 1)4♥ 2)6♠ 3)K♠ 4)K♣ 5)J♠ 6)9♥
+Choose a card to play (1-6):
+> 2
+Player wins cards
+Score: Player 4 - Computer 2
+Cards: Player 14 - Computer 3
+No cards on the table
+7♥ 8♦ A♣ 9♣ J♣ Q♣
+Computer plays Q♣
+
+1 cards on the table, and the top card is Q♣
+Cards in hand: 1)4♥ 2)K♠ 3)K♣ 4)J♠ 5)9♥
+Choose a card to play (1-5):
+> 3
+Player wins cards
+Score: Player 6 - Computer 2
+Cards: Player 16 - Computer 3
+No cards on the table
+7♥ 8♦ A♣ 9♣ J♣
+Computer plays A♣
+
+1 cards on the table, and the top card is A♣
+Cards in hand: 1)4♥ 2)K♠ 3)J♠ 4)9♥
+Choose a card to play (1-4):
+> 2
+
+2 cards on the table, and the top card is K♠
+7♥ 8♦ 9♣ J♣
+Computer plays 9♣
+
+3 cards on the table, and the top card is 9♣
+Cards in hand: 1)4♥ 2)J♠ 3)9♥
+Choose a card to play (1-3):
+> 3
+Player wins cards
+Score: Player 8 - Computer 2
+Cards: Player 20 - Computer 3
+No cards on the table
+7♥ 8♦ J♣
+Computer plays 7♥
+
+1 cards on the table, and the top card is 7♥
+Cards in hand: 1)4♥ 2)J♠
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 8 - Computer 2
+Cards: Player 22 - Computer 3
+No cards on the table
+8♦ J♣
+Computer plays 8♦
+
+1 cards on the table, and the top card is 8♦
+Cards in hand: 1)J♠
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is J♠
+J♣
+Computer plays J♣
+Computer wins cards
+Score: Player 8 - Computer 4
+Cards: Player 22 - Computer 6
+No cards on the table
+Cards in hand: 1)10♠ 2)5♦ 3)3♥ 4)10♥ 5)4♠ 6)2♦
+Choose a card to play (1-6):
+> 1
+
+1 cards on the table, and the top card is 10♠
+4♦ A♠ 5♠ 7♠ 5♣ A♦
+Computer plays 5♠
+Computer wins cards
+Score: Player 8 - Computer 5
+Cards: Player 22 - Computer 8
+No cards on the table
+Cards in hand: 1)5♦ 2)3♥ 3)10♥ 4)4♠ 5)2♦
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is 5♦
+4♦ A♠ 7♠ 5♣ A♦
+Computer plays 4♦
+Computer wins cards
+Score: Player 8 - Computer 5
+Cards: Player 22 - Computer 10
+No cards on the table
+Cards in hand: 1)3♥ 2)10♥ 3)4♠ 4)2♦
+Choose a card to play (1-4):
+> 3
+
+1 cards on the table, and the top card is 4♠
+A♠ 7♠ 5♣ A♦
+Computer plays A♠
+Computer wins cards
+Score: Player 8 - Computer 6
+Cards: Player 22 - Computer 12
+No cards on the table
+Cards in hand: 1)3♥ 2)10♥ 3)2♦
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 3♥
+7♠ 5♣ A♦
+Computer plays 5♣
+
+2 cards on the table, and the top card is 5♣
+Cards in hand: 1)10♥ 2)2♦
+Choose a card to play (1-2):
+> 1
+
+3 cards on the table, and the top card is 10♥
+7♠ A♦
+Computer plays A♦
+
+4 cards on the table, and the top card is A♦
+Cards in hand: 1)2♦
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 10 - Computer 6
+Cards: Player 27 - Computer 12
+No cards on the table
+7♠
+Computer plays 7♠
+
+1 cards on the table, and the top card is 7♠
+Cards in hand: 1)Q♥ 2)3♠ 3)J♥ 4)7♣ 5)J♦ 6)9♦
+Choose a card to play (1-6):
+> 2
+Player wins cards
+Score: Player 10 - Computer 6
+Cards: Player 29 - Computer 12
+No cards on the table
+5♥ 8♥ 2♣ 10♣ 3♣ 3♦
+Computer plays 5♥
+
+1 cards on the table, and the top card is 5♥
+Cards in hand: 1)Q♥ 2)J♥ 3)7♣ 4)J♦ 5)9♦
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 11 - Computer 6
+Cards: Player 31 - Computer 12
+No cards on the table
+8♥ 2♣ 10♣ 3♣ 3♦
+Computer plays 10♣
+
+1 cards on the table, and the top card is 10♣
+Cards in hand: 1)J♥ 2)7♣ 3)J♦ 4)9♦
+Choose a card to play (1-4):
+> 2
+Player wins cards
+Score: Player 12 - Computer 6
+Cards: Player 33 - Computer 12
+No cards on the table
+8♥ 2♣ 3♣ 3♦
+Computer plays 2♣
+
+1 cards on the table, and the top card is 2♣
+Cards in hand: 1)J♥ 2)J♦ 3)9♦
+Choose a card to play (1-3):
+> 2
+
+2 cards on the table, and the top card is J♦
+8♥ 3♣ 3♦
+Computer plays 3♦
+Computer wins cards
+Score: Player 12 - Computer 7
+Cards: Player 33 - Computer 15
+No cards on the table
+Cards in hand: 1)J♥ 2)9♦
+Choose a card to play (1-2):
+> 2
+
+1 cards on the table, and the top card is 9♦
+8♥ 3♣
+Computer plays 8♥
+
+2 cards on the table, and the top card is 8♥
+Cards in hand: 1)J♥
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 13 - Computer 7
+Cards: Player 36 - Computer 15
+No cards on the table
+3♣
+Computer plays 3♣
+
+1 cards on the table, and the top card is 3♣
+Score: Player 16 - Computer 7
+Cards: Player 37 - Computer 15
+Game Over
+Indigo Card Game
+Play first?
+> yes
+Initial cards on the table: Q♥ 7♦ 7♠ 6♠
+4 cards on the table, and the top card is 6♠
+Cards in hand: 1)8♥ 2)2♣ 3)4♣ 4)2♠ 5)5♥ 6)5♣
+Choose a card to play (1-6):
+> 4
+Player wins cards
+Score: Player 1 - Computer 0
+Cards: Player 5 - Computer 0
+No cards on the table
+J♣ 5♦ Q♦ 3♣ 4♦ J♦
+Computer plays 4♦
+
+1 cards on the table, and the top card is 4♦
+Cards in hand: 1)8♥ 2)2♣ 3)4♣ 4)5♥ 5)5♣
+Choose a card to play (1-5):
+> 3
+Player wins cards
+Score: Player 1 - Computer 0
+Cards: Player 7 - Computer 0
+No cards on the table
+J♣ 5♦ Q♦ 3♣ J♦
+Computer plays Q♦
+
+1 cards on the table, and the top card is Q♦
+Cards in hand: 1)8♥ 2)2♣ 3)5♥ 4)5♣
+Choose a card to play (1-4):
+> 1
+
+2 cards on the table, and the top card is 8♥
+J♣ 5♦ 3♣ J♦
+Computer plays J♦
+
+3 cards on the table, and the top card is J♦
+Cards in hand: 1)2♣ 2)5♥ 3)5♣
+Choose a card to play (1-3):
+> 1
+
+4 cards on the table, and the top card is 2♣
+J♣ 5♦ 3♣
+Computer plays J♣
+Computer wins cards
+Score: Player 1 - Computer 3
+Cards: Player 7 - Computer 5
+No cards on the table
+Cards in hand: 1)5♥ 2)5♣
+Choose a card to play (1-2):
+> 2
+
+1 cards on the table, and the top card is 5♣
+5♦ 3♣
+Computer plays 3♣
+Computer wins cards
+Score: Player 1 - Computer 3
+Cards: Player 7 - Computer 7
+No cards on the table
+Cards in hand: 1)5♥
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 5♥
+5♦
+Computer plays 5♦
+Computer wins cards
+Score: Player 1 - Computer 3
+Cards: Player 7 - Computer 9
+No cards on the table
+Cards in hand: 1)Q♠ 2)8♠ 3)7♥ 4)2♥ 5)3♥ 6)K♣
+Choose a card to play (1-6):
+> 1
+
+1 cards on the table, and the top card is Q♠
+3♠ 6♣ J♠ A♣ 2♦ 4♠
+Computer plays 3♠
+Computer wins cards
+Score: Player 1 - Computer 4
+Cards: Player 7 - Computer 11
+No cards on the table
+Cards in hand: 1)8♠ 2)7♥ 3)2♥ 4)3♥ 5)K♣
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is 8♠
+6♣ J♠ A♣ 2♦ 4♠
+Computer plays J♠
+Computer wins cards
+Score: Player 1 - Computer 5
+Cards: Player 7 - Computer 13
+No cards on the table
+Cards in hand: 1)7♥ 2)2♥ 3)3♥ 4)K♣
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 7♥
+6♣ A♣ 2♦ 4♠
+Computer plays A♣
+
+2 cards on the table, and the top card is A♣
+Cards in hand: 1)2♥ 2)3♥ 3)K♣
+Choose a card to play (1-3):
+> 3
+Player wins cards
+Score: Player 3 - Computer 5
+Cards: Player 10 - Computer 13
+No cards on the table
+6♣ 2♦ 4♠
+Computer plays 4♠
+
+1 cards on the table, and the top card is 4♠
+Cards in hand: 1)2♥ 2)3♥
+Choose a card to play (1-2):
+> 1
+
+2 cards on the table, and the top card is 2♥
+6♣ 2♦
+Computer plays 2♦
+Computer wins cards
+Score: Player 3 - Computer 5
+Cards: Player 10 - Computer 16
+No cards on the table
+Cards in hand: 1)3♥
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 3♥
+6♣
+Computer plays 6♣
+
+2 cards on the table, and the top card is 6♣
+Cards in hand: 1)Q♣ 2)K♥ 3)6♥ 4)10♥ 5)K♠ 6)K♦
+Choose a card to play (1-6):
+> 1
+Player wins cards
+Score: Player 4 - Computer 5
+Cards: Player 13 - Computer 16
+No cards on the table
+9♣ 3♦ 9♠ 10♦ 7♣ 6♦
+Computer plays 6♦
+
+1 cards on the table, and the top card is 6♦
+Cards in hand: 1)K♥ 2)6♥ 3)10♥ 4)K♠ 5)K♦
+Choose a card to play (1-5):
+> 2
+Player wins cards
+Score: Player 4 - Computer 5
+Cards: Player 15 - Computer 16
+No cards on the table
+9♣ 3♦ 9♠ 10♦ 7♣
+Computer plays 3♦
+
+1 cards on the table, and the top card is 3♦
+Cards in hand: 1)K♥ 2)10♥ 3)K♠ 4)K♦
+Choose a card to play (1-4):
+> 4
+Player wins cards
+Score: Player 5 - Computer 5
+Cards: Player 17 - Computer 16
+No cards on the table
+9♣ 9♠ 10♦ 7♣
+Computer plays 7♣
+
+1 cards on the table, and the top card is 7♣
+Cards in hand: 1)K♥ 2)10♥ 3)K♠
+Choose a card to play (1-3):
+> 1
+
+2 cards on the table, and the top card is K♥
+9♣ 9♠ 10♦
+Computer plays 9♠
+
+3 cards on the table, and the top card is 9♠
+Cards in hand: 1)10♥ 2)K♠
+Choose a card to play (1-2):
+> 2
+Player wins cards
+Score: Player 7 - Computer 5
+Cards: Player 21 - Computer 16
+No cards on the table
+9♣ 10♦
+Computer plays 10♦
+
+1 cards on the table, and the top card is 10♦
+Cards in hand: 1)10♥
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 9 - Computer 5
+Cards: Player 23 - Computer 16
+No cards on the table
+9♣
+Computer plays 9♣
+
+1 cards on the table, and the top card is 9♣
+Cards in hand: 1)A♦ 2)10♠ 3)9♦ 4)8♦ 5)8♣ 6)5♠
+Choose a card to play (1-6):
+> 3
+Player wins cards
+Score: Player 9 - Computer 5
+Cards: Player 25 - Computer 16
+No cards on the table
+4♥ J♥ 9♥ A♠ A♥ 10♣
+Computer plays 9♥
+
+1 cards on the table, and the top card is 9♥
+Cards in hand: 1)A♦ 2)10♠ 3)8♦ 4)8♣ 5)5♠
+Choose a card to play (1-5):
+> 2
+
+2 cards on the table, and the top card is 10♠
+4♥ J♥ A♠ A♥ 10♣
+Computer plays A♠
+Computer wins cards
+Score: Player 9 - Computer 7
+Cards: Player 25 - Computer 19
+No cards on the table
+Cards in hand: 1)A♦ 2)8♦ 3)8♣ 4)5♠
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is A♦
+4♥ J♥ A♥ 10♣
+Computer plays A♥
+Computer wins cards
+Score: Player 9 - Computer 9
+Cards: Player 25 - Computer 21
+No cards on the table
+Cards in hand: 1)8♦ 2)8♣ 3)5♠
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 8♦
+4♥ J♥ 10♣
+Computer plays 4♥
+
+2 cards on the table, and the top card is 4♥
+Cards in hand: 1)8♣ 2)5♠
+Choose a card to play (1-2):
+> 1
+
+3 cards on the table, and the top card is 8♣
+J♥ 10♣
+Computer plays 10♣
+Computer wins cards
+Score: Player 9 - Computer 10
+Cards: Player 25 - Computer 25
+No cards on the table
+Cards in hand: 1)5♠
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 5♠
+J♥
+Computer plays J♥
+
+2 cards on the table, and the top card is J♥
+Score: Player 9 - Computer 14
+Cards: Player 25 - Computer 27
+Game Over
+Indigo Card Game
+Play first?
+> yes
+Initial cards on the table: 6♣ 10♠ 8♣ J♠
+4 cards on the table, and the top card is J♠
+Cards in hand: 1)7♣ 2)5♠ 3)4♣ 4)5♥ 5)K♠ 6)J♣
+Choose a card to play (1-6):
+> 2
+Player wins cards
+Score: Player 2 - Computer 0
+Cards: Player 5 - Computer 0
+No cards on the table
+2♠ 4♦ 9♥ 9♠ A♥ K♥
+Computer plays A♥
+
+1 cards on the table, and the top card is A♥
+Cards in hand: 1)7♣ 2)4♣ 3)5♥ 4)K♠ 5)J♣
+Choose a card to play (1-5):
+> 3
+Player wins cards
+Score: Player 3 - Computer 0
+Cards: Player 7 - Computer 0
+No cards on the table
+2♠ 4♦ 9♥ 9♠ K♥
+Computer plays K♥
+
+1 cards on the table, and the top card is K♥
+Cards in hand: 1)7♣ 2)4♣ 3)K♠ 4)J♣
+Choose a card to play (1-4):
+> 3
+Player wins cards
+Score: Player 5 - Computer 0
+Cards: Player 9 - Computer 0
+No cards on the table
+2♠ 4♦ 9♥ 9♠
+Computer plays 9♠
+
+1 cards on the table, and the top card is 9♠
+Cards in hand: 1)7♣ 2)4♣ 3)J♣
+Choose a card to play (1-3):
+> 1
+
+2 cards on the table, and the top card is 7♣
+2♠ 4♦ 9♥
+Computer plays 2♠
+
+3 cards on the table, and the top card is 2♠
+Cards in hand: 1)4♣ 2)J♣
+Choose a card to play (1-2):
+> 1
+
+4 cards on the table, and the top card is 4♣
+4♦ 9♥
+Computer plays 4♦
+Computer wins cards
+Score: Player 5 - Computer 0
+Cards: Player 9 - Computer 5
+No cards on the table
+Cards in hand: 1)J♣
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is J♣
+9♥
+Computer plays 9♥
+
+2 cards on the table, and the top card is 9♥
+Cards in hand: 1)10♦ 2)Q♦ 3)2♣ 4)3♥ 5)6♦ 6)A♠
+Choose a card to play (1-6):
+> 4
+Player wins cards
+Score: Player 6 - Computer 0
+Cards: Player 12 - Computer 5
+No cards on the table
+7♠ Q♥ 6♠ 3♦ 8♠ 9♦
+Computer plays 9♦
+
+1 cards on the table, and the top card is 9♦
+Cards in hand: 1)10♦ 2)Q♦ 3)2♣ 4)6♦ 5)A♠
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 7 - Computer 0
+Cards: Player 14 - Computer 5
+No cards on the table
+7♠ Q♥ 6♠ 3♦ 8♠
+Computer plays 7♠
+
+1 cards on the table, and the top card is 7♠
+Cards in hand: 1)Q♦ 2)2♣ 3)6♦ 4)A♠
+Choose a card to play (1-4):
+> 4
+Player wins cards
+Score: Player 8 - Computer 0
+Cards: Player 16 - Computer 5
+No cards on the table
+Q♥ 6♠ 3♦ 8♠
+Computer plays 6♠
+
+1 cards on the table, and the top card is 6♠
+Cards in hand: 1)Q♦ 2)2♣ 3)6♦
+Choose a card to play (1-3):
+> 3
+Player wins cards
+Score: Player 8 - Computer 0
+Cards: Player 18 - Computer 5
+No cards on the table
+Q♥ 3♦ 8♠
+Computer plays Q♥
+
+1 cards on the table, and the top card is Q♥
+Cards in hand: 1)Q♦ 2)2♣
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 10 - Computer 0
+Cards: Player 20 - Computer 5
+No cards on the table
+3♦ 8♠
+Computer plays 3♦
+
+1 cards on the table, and the top card is 3♦
+Cards in hand: 1)2♣
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is 2♣
+8♠
+Computer plays 8♠
+
+3 cards on the table, and the top card is 8♠
+Cards in hand: 1)10♥ 2)5♦ 3)Q♣ 4)K♦ 5)4♠ 6)5♣
+Choose a card to play (1-6):
+> 5
+Player wins cards
+Score: Player 10 - Computer 0
+Cards: Player 24 - Computer 5
+No cards on the table
+8♥ J♥ 10♣ 7♥ K♣ Q♠
+Computer plays J♥
+
+1 cards on the table, and the top card is J♥
+Cards in hand: 1)10♥ 2)5♦ 3)Q♣ 4)K♦ 5)5♣
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 12 - Computer 0
+Cards: Player 26 - Computer 5
+No cards on the table
+8♥ 10♣ 7♥ K♣ Q♠
+Computer plays 8♥
+
+1 cards on the table, and the top card is 8♥
+Cards in hand: 1)5♦ 2)Q♣ 3)K♦ 4)5♣
+Choose a card to play (1-4):
+> 1
+
+2 cards on the table, and the top card is 5♦
+10♣ 7♥ K♣ Q♠
+Computer plays 10♣
+
+3 cards on the table, and the top card is 10♣
+Cards in hand: 1)Q♣ 2)K♦ 3)5♣
+Choose a card to play (1-3):
+> 1
+Player wins cards
+Score: Player 14 - Computer 0
+Cards: Player 30 - Computer 5
+No cards on the table
+7♥ K♣ Q♠
+Computer plays Q♠
+
+1 cards on the table, and the top card is Q♠
+Cards in hand: 1)K♦ 2)5♣
+Choose a card to play (1-2):
+> 1
+
+2 cards on the table, and the top card is K♦
+7♥ K♣
+Computer plays K♣
+Computer wins cards
+Score: Player 14 - Computer 3
+Cards: Player 30 - Computer 8
+No cards on the table
+Cards in hand: 1)5♣
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 5♣
+7♥
+Computer plays 7♥
+
+2 cards on the table, and the top card is 7♥
+Cards in hand: 1)A♦ 2)2♥ 3)6♥ 4)3♣ 5)3♠ 6)9♣
+Choose a card to play (1-6):
+> 2
+Player wins cards
+Score: Player 14 - Computer 3
+Cards: Player 33 - Computer 8
+No cards on the table
+2♦ A♣ 4♥ 7♦ 8♦ J♦
+Computer plays 7♦
+
+1 cards on the table, and the top card is 7♦
+Cards in hand: 1)A♦ 2)6♥ 3)3♣ 4)3♠ 5)9♣
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 15 - Computer 3
+Cards: Player 35 - Computer 8
+No cards on the table
+2♦ A♣ 4♥ 8♦ J♦
+Computer plays 8♦
+
+1 cards on the table, and the top card is 8♦
+Cards in hand: 1)6♥ 2)3♣ 3)3♠ 4)9♣
+Choose a card to play (1-4):
+> 2
+
+2 cards on the table, and the top card is 3♣
+2♦ A♣ 4♥ J♦
+Computer plays A♣
+Computer wins cards
+Score: Player 15 - Computer 4
+Cards: Player 35 - Computer 11
+No cards on the table
+Cards in hand: 1)6♥ 2)3♠ 3)9♣
+Choose a card to play (1-3):
+> 3
+
+1 cards on the table, and the top card is 9♣
+2♦ 4♥ J♦
+Computer plays J♦
+
+2 cards on the table, and the top card is J♦
+Cards in hand: 1)6♥ 2)3♠
+Choose a card to play (1-2):
+> 1
+
+3 cards on the table, and the top card is 6♥
+2♦ 4♥
+Computer plays 4♥
+Computer wins cards
+Score: Player 15 - Computer 5
+Cards: Player 35 - Computer 15
+No cards on the table
+Cards in hand: 1)3♠
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 3♠
+2♦
+Computer plays 2♦
+
+2 cards on the table, and the top card is 2♦
+Score: Player 18 - Computer 5
+Cards: Player 35 - Computer 17
 Game Over
 ?[1;31m
-Start test 3?[0m
+Start test 2?[0m
 Indigo Card Game
 Play first?
 > Hello
@@ -457,464 +1313,1316 @@ Play first?
 > play
 Play first?
 > yes
-Initial cards on the table: 10♦ 8♠ 5♦ 9♠
-4 cards on the table, and the top card is 9♠
-Cards in hand: 1)K♥ 2)3♦ 3)9♣ 4)6♥ 5)7♣ 6)10♠
+Initial cards on the table: 10♦ 10♥ 5♠ A♥
+4 cards on the table, and the top card is A♥
+Cards in hand: 1)7♦ 2)8♥ 3)9♠ 4)7♠ 5)7♣ 6)4♣
 Choose a card to play (1-6):
 > exit
+Game Over
+?[1;31m
+Start test 3?[0m
+Indigo Card Game
+Play first?
+> no
+Initial cards on the table: 2♠ 5♥ 8♥ 3♦
+4 cards on the table, and the top card is 3♦
+K♦ J♥ 10♦ 4♥ 3♣ 3♥
+Computer plays 10♦
+Computer wins cards
+Score: Player 0 - Computer 1
+Cards: Player 0 - Computer 5
+No cards on the table
+Cards in hand: 1)A♥ 2)K♠ 3)8♣ 4)Q♥ 5)7♥ 6)9♥
+Choose a card to play (1-6):
+> 1
+
+1 cards on the table, and the top card is A♥
+K♦ J♥ 4♥ 3♣ 3♥
+Computer plays 4♥
+Computer wins cards
+Score: Player 0 - Computer 2
+Cards: Player 0 - Computer 7
+No cards on the table
+Cards in hand: 1)K♠ 2)8♣ 3)Q♥ 4)7♥ 5)9♥
+Choose a card to play (1-5):
+> 3
+
+1 cards on the table, and the top card is Q♥
+K♦ J♥ 3♣ 3♥
+Computer plays 3♥
+Computer wins cards
+Score: Player 0 - Computer 3
+Cards: Player 0 - Computer 9
+No cards on the table
+Cards in hand: 1)K♠ 2)8♣ 3)7♥ 4)9♥
+Choose a card to play (1-4):
+> 3
+
+1 cards on the table, and the top card is 7♥
+K♦ J♥ 3♣
+Computer plays J♥
+Computer wins cards
+Score: Player 0 - Computer 4
+Cards: Player 0 - Computer 11
+No cards on the table
+Cards in hand: 1)K♠ 2)8♣ 3)9♥
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is K♠
+K♦ 3♣
+Computer plays K♦
+Computer wins cards
+Score: Player 0 - Computer 6
+Cards: Player 0 - Computer 13
+No cards on the table
+Cards in hand: 1)8♣ 2)9♥
+Choose a card to play (1-2):
+> 1
+
+1 cards on the table, and the top card is 8♣
+3♣
+Computer plays 3♣
+Computer wins cards
+Score: Player 0 - Computer 6
+Cards: Player 0 - Computer 15
+No cards on the table
+Cards in hand: 1)9♥
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 9♥
+A♣ 2♥ 5♠ 2♣ 4♣ 9♣
+Computer plays 2♥
+Computer wins cards
+Score: Player 0 - Computer 6
+Cards: Player 0 - Computer 17
+No cards on the table
+Cards in hand: 1)Q♠ 2)10♥ 3)8♠ 4)2♦ 5)J♦ 6)5♣
+Choose a card to play (1-6):
+> 1
+
+1 cards on the table, and the top card is Q♠
+A♣ 5♠ 2♣ 4♣ 9♣
+Computer plays 5♠
+Computer wins cards
+Score: Player 0 - Computer 7
+Cards: Player 0 - Computer 19
+No cards on the table
+Cards in hand: 1)10♥ 2)8♠ 3)2♦ 4)J♦ 5)5♣
+Choose a card to play (1-5):
+> 3
+
+1 cards on the table, and the top card is 2♦
+A♣ 2♣ 4♣ 9♣
+Computer plays 2♣
+Computer wins cards
+Score: Player 0 - Computer 7
+Cards: Player 0 - Computer 21
+No cards on the table
+Cards in hand: 1)10♥ 2)8♠ 3)J♦ 4)5♣
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 10♥
+A♣ 4♣ 9♣
+Computer plays 9♣
+
+2 cards on the table, and the top card is 9♣
+Cards in hand: 1)8♠ 2)J♦ 3)5♣
+Choose a card to play (1-3):
+> 1
+
+3 cards on the table, and the top card is 8♠
+A♣ 4♣
+Computer plays A♣
+
+4 cards on the table, and the top card is A♣
+Cards in hand: 1)J♦ 2)5♣
+Choose a card to play (1-2):
+> 1
+
+5 cards on the table, and the top card is J♦
+4♣
+Computer plays 4♣
+
+6 cards on the table, and the top card is 4♣
+Cards in hand: 1)5♣
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 3 - Computer 7
+Cards: Player 7 - Computer 21
+No cards on the table
+4♠ Q♦ 7♦ 6♣ 6♦ 5♦
+Computer plays 5♦
+
+1 cards on the table, and the top card is 5♦
+Cards in hand: 1)A♦ 2)8♦ 3)K♥ 4)9♦ 5)7♣ 6)4♦
+Choose a card to play (1-6):
+> 1
+Player wins cards
+Score: Player 4 - Computer 7
+Cards: Player 9 - Computer 21
+No cards on the table
+4♠ Q♦ 7♦ 6♣ 6♦
+Computer plays Q♦
+
+1 cards on the table, and the top card is Q♦
+Cards in hand: 1)8♦ 2)K♥ 3)9♦ 4)7♣ 5)4♦
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 5 - Computer 7
+Cards: Player 11 - Computer 21
+No cards on the table
+4♠ 7♦ 6♣ 6♦
+Computer plays 7♦
+
+1 cards on the table, and the top card is 7♦
+Cards in hand: 1)K♥ 2)9♦ 3)7♣ 4)4♦
+Choose a card to play (1-4):
+> 2
+Player wins cards
+Score: Player 5 - Computer 7
+Cards: Player 13 - Computer 21
+No cards on the table
+4♠ 6♣ 6♦
+Computer plays 6♦
+
+1 cards on the table, and the top card is 6♦
+Cards in hand: 1)K♥ 2)7♣ 3)4♦
+Choose a card to play (1-3):
+> 1
+
+2 cards on the table, and the top card is K♥
+4♠ 6♣
+Computer plays 4♠
+
+3 cards on the table, and the top card is 4♠
+Cards in hand: 1)7♣ 2)4♦
+Choose a card to play (1-2):
+> 1
+
+4 cards on the table, and the top card is 7♣
+6♣
+Computer plays 6♣
+Computer wins cards
+Score: Player 5 - Computer 8
+Cards: Player 13 - Computer 26
+No cards on the table
+Cards in hand: 1)4♦
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 4♦
+A♠ 10♠ Q♣ J♠ J♣ 6♠
+Computer plays 10♠
+
+2 cards on the table, and the top card is 10♠
+Cards in hand: 1)9♠ 2)3♠ 3)6♥ 4)7♠ 5)10♣ 6)K♣
+Choose a card to play (1-6):
+> 1
+Player wins cards
+Score: Player 6 - Computer 8
+Cards: Player 16 - Computer 26
+No cards on the table
+A♠ Q♣ J♠ J♣ 6♠
+Computer plays J♠
+
+1 cards on the table, and the top card is J♠
+Cards in hand: 1)3♠ 2)6♥ 3)7♠ 4)10♣ 5)K♣
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 7 - Computer 8
+Cards: Player 18 - Computer 26
+No cards on the table
+A♠ Q♣ J♣ 6♠
+Computer plays A♠
+
+1 cards on the table, and the top card is A♠
+Cards in hand: 1)6♥ 2)7♠ 3)10♣ 4)K♣
+Choose a card to play (1-4):
+> 3
+
+2 cards on the table, and the top card is 10♣
+Q♣ J♣ 6♠
+Computer plays J♣
+Computer wins cards
+Score: Player 7 - Computer 11
+Cards: Player 18 - Computer 29
+No cards on the table
+Cards in hand: 1)6♥ 2)7♠ 3)K♣
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 6♥
+Q♣ 6♠
+Computer plays 6♠
+Computer wins cards
+Score: Player 7 - Computer 11
+Cards: Player 18 - Computer 31
+No cards on the table
+Cards in hand: 1)7♠ 2)K♣
+Choose a card to play (1-2):
+> 1
+
+1 cards on the table, and the top card is 7♠
+Q♣
+Computer plays Q♣
+
+2 cards on the table, and the top card is Q♣
+Cards in hand: 1)K♣
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 9 - Computer 11
+Cards: Player 21 - Computer 31
+No cards on the table
+Score: Player 9 - Computer 14
+Cards: Player 21 - Computer 31
+Game Over
+Indigo Card Game
+Play first?
+> no
+Initial cards on the table: 6♥ 4♦ Q♣ 10♥
+4 cards on the table, and the top card is 10♥
+2♥ Q♦ 2♦ K♠ 6♣ 9♥
+Computer plays 9♥
+Computer wins cards
+Score: Player 0 - Computer 2
+Cards: Player 0 - Computer 5
+No cards on the table
+Cards in hand: 1)7♦ 2)3♥ 3)6♦ 4)Q♠ 5)2♠ 6)10♣
+Choose a card to play (1-6):
+> 4
+
+1 cards on the table, and the top card is Q♠
+2♥ Q♦ 2♦ K♠ 6♣
+Computer plays Q♦
+Computer wins cards
+Score: Player 0 - Computer 4
+Cards: Player 0 - Computer 7
+No cards on the table
+Cards in hand: 1)7♦ 2)3♥ 3)6♦ 4)2♠ 5)10♣
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is 7♦
+2♥ 2♦ K♠ 6♣
+Computer plays 2♦
+Computer wins cards
+Score: Player 0 - Computer 4
+Cards: Player 0 - Computer 9
+No cards on the table
+Cards in hand: 1)3♥ 2)6♦ 3)2♠ 4)10♣
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 3♥
+2♥ K♠ 6♣
+Computer plays 2♥
+Computer wins cards
+Score: Player 0 - Computer 4
+Cards: Player 0 - Computer 11
+No cards on the table
+Cards in hand: 1)6♦ 2)2♠ 3)10♣
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 6♦
+K♠ 6♣
+Computer plays 6♣
+Computer wins cards
+Score: Player 0 - Computer 4
+Cards: Player 0 - Computer 13
+No cards on the table
+Cards in hand: 1)2♠ 2)10♣
+Choose a card to play (1-2):
+> 1
+
+1 cards on the table, and the top card is 2♠
+K♠
+Computer plays K♠
+Computer wins cards
+Score: Player 0 - Computer 5
+Cards: Player 0 - Computer 15
+No cards on the table
+Cards in hand: 1)10♣
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 10♣
+K♥ 5♥ A♦ 7♣ 3♣ 9♠
+Computer plays 7♣
+Computer wins cards
+Score: Player 0 - Computer 6
+Cards: Player 0 - Computer 17
+No cards on the table
+Cards in hand: 1)7♠ 2)10♠ 3)5♠ 4)4♣ 5)8♣ 6)A♣
+Choose a card to play (1-6):
+> 1
+
+1 cards on the table, and the top card is 7♠
+K♥ 5♥ A♦ 3♣ 9♠
+Computer plays 9♠
+Computer wins cards
+Score: Player 0 - Computer 6
+Cards: Player 0 - Computer 19
+No cards on the table
+Cards in hand: 1)10♠ 2)5♠ 3)4♣ 4)8♣ 5)A♣
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is 10♠
+K♥ 5♥ A♦ 3♣
+Computer plays K♥
+
+2 cards on the table, and the top card is K♥
+Cards in hand: 1)5♠ 2)4♣ 3)8♣ 4)A♣
+Choose a card to play (1-4):
+> 2
+
+3 cards on the table, and the top card is 4♣
+5♥ A♦ 3♣
+Computer plays 3♣
+Computer wins cards
+Score: Player 0 - Computer 8
+Cards: Player 0 - Computer 23
+No cards on the table
+Cards in hand: 1)5♠ 2)8♣ 3)A♣
+Choose a card to play (1-3):
+> 2
+
+1 cards on the table, and the top card is 8♣
+5♥ A♦
+Computer plays A♦
+
+2 cards on the table, and the top card is A♦
+Cards in hand: 1)5♠ 2)A♣
+Choose a card to play (1-2):
+> 1
+
+3 cards on the table, and the top card is 5♠
+5♥
+Computer plays 5♥
+Computer wins cards
+Score: Player 0 - Computer 9
+Cards: Player 0 - Computer 27
+No cards on the table
+Cards in hand: 1)A♣
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is A♣
+9♣ K♦ 4♠ 4♥ A♥ 5♦
+Computer plays 9♣
+Computer wins cards
+Score: Player 0 - Computer 10
+Cards: Player 0 - Computer 29
+No cards on the table
+Cards in hand: 1)K♣ 2)5♣ 3)3♠ 4)J♣ 5)8♦ 6)10♦
+Choose a card to play (1-6):
+> 5
+
+1 cards on the table, and the top card is 8♦
+K♦ 4♠ 4♥ A♥ 5♦
+Computer plays K♦
+Computer wins cards
+Score: Player 0 - Computer 11
+Cards: Player 0 - Computer 31
+No cards on the table
+Cards in hand: 1)K♣ 2)5♣ 3)3♠ 4)J♣ 5)10♦
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is K♣
+4♠ 4♥ A♥ 5♦
+Computer plays 4♥
+
+2 cards on the table, and the top card is 4♥
+Cards in hand: 1)5♣ 2)3♠ 3)J♣ 4)10♦
+Choose a card to play (1-4):
+> 1
+
+3 cards on the table, and the top card is 5♣
+4♠ A♥ 5♦
+Computer plays 5♦
+Computer wins cards
+Score: Player 0 - Computer 12
+Cards: Player 0 - Computer 35
+No cards on the table
+Cards in hand: 1)3♠ 2)J♣ 3)10♦
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 3♠
+4♠ A♥
+Computer plays 4♠
+Computer wins cards
+Score: Player 0 - Computer 12
+Cards: Player 0 - Computer 37
+No cards on the table
+Cards in hand: 1)J♣ 2)10♦
+Choose a card to play (1-2):
+> 1
+
+1 cards on the table, and the top card is J♣
+A♥
+Computer plays A♥
+
+2 cards on the table, and the top card is A♥
+Cards in hand: 1)10♦
+Choose a card to play (1-1):
+> 1
+
+3 cards on the table, and the top card is 10♦
+8♥ Q♥ J♥ 8♠ 7♥ 9♦
+Computer plays 9♦
+Computer wins cards
+Score: Player 0 - Computer 15
+Cards: Player 0 - Computer 41
+No cards on the table
+Cards in hand: 1)J♠ 2)2♣ 3)3♦ 4)6♠ 5)A♠ 6)J♦
+Choose a card to play (1-6):
+> 1
+
+1 cards on the table, and the top card is J♠
+8♥ Q♥ J♥ 8♠ 7♥
+Computer plays 8♠
+Computer wins cards
+Score: Player 0 - Computer 16
+Cards: Player 0 - Computer 43
+No cards on the table
+Cards in hand: 1)2♣ 2)3♦ 3)6♠ 4)A♠ 5)J♦
+Choose a card to play (1-5):
+> 3
+
+1 cards on the table, and the top card is 6♠
+8♥ Q♥ J♥ 7♥
+Computer plays 7♥
+
+2 cards on the table, and the top card is 7♥
+Cards in hand: 1)2♣ 2)3♦ 3)A♠ 4)J♦
+Choose a card to play (1-4):
+> 2
+
+3 cards on the table, and the top card is 3♦
+8♥ Q♥ J♥
+Computer plays J♥
+
+4 cards on the table, and the top card is J♥
+Cards in hand: 1)2♣ 2)A♠ 3)J♦
+Choose a card to play (1-3):
+> 1
+
+5 cards on the table, and the top card is 2♣
+8♥ Q♥
+Computer plays 8♥
+
+6 cards on the table, and the top card is 8♥
+Cards in hand: 1)A♠ 2)J♦
+Choose a card to play (1-2):
+> 1
+
+7 cards on the table, and the top card is A♠
+Q♥
+Computer plays Q♥
+
+8 cards on the table, and the top card is Q♥
+Cards in hand: 1)J♦
+Choose a card to play (1-1):
+> 1
+
+9 cards on the table, and the top card is J♦
+Score: Player 0 - Computer 23
+Cards: Player 0 - Computer 52
+Game Over
+Indigo Card Game
+Play first?
+> no
+Initial cards on the table: 6♣ 6♦ 7♠ 2♠
+4 cards on the table, and the top card is 2♠
+K♦ 7♣ 4♦ 9♣ 10♠ 3♦
+Computer plays 10♠
+Computer wins cards
+Score: Player 0 - Computer 1
+Cards: Player 0 - Computer 5
+No cards on the table
+Cards in hand: 1)9♦ 2)J♦ 3)A♣ 4)Q♠ 5)4♠ 6)6♥
+Choose a card to play (1-6):
+> 4
+
+1 cards on the table, and the top card is Q♠
+K♦ 7♣ 4♦ 9♣ 3♦
+Computer plays K♦
+
+2 cards on the table, and the top card is K♦
+Cards in hand: 1)9♦ 2)J♦ 3)A♣ 4)4♠ 5)6♥
+Choose a card to play (1-5):
+> 1
+Player wins cards
+Score: Player 2 - Computer 1
+Cards: Player 3 - Computer 5
+No cards on the table
+7♣ 4♦ 9♣ 3♦
+Computer plays 4♦
+
+1 cards on the table, and the top card is 4♦
+Cards in hand: 1)J♦ 2)A♣ 3)4♠ 4)6♥
+Choose a card to play (1-4):
+> 1
+Player wins cards
+Score: Player 3 - Computer 1
+Cards: Player 5 - Computer 5
+No cards on the table
+7♣ 9♣ 3♦
+Computer plays 7♣
+
+1 cards on the table, and the top card is 7♣
+Cards in hand: 1)A♣ 2)4♠ 3)6♥
+Choose a card to play (1-3):
+> 1
+Player wins cards
+Score: Player 4 - Computer 1
+Cards: Player 7 - Computer 5
+No cards on the table
+9♣ 3♦
+Computer plays 9♣
+
+1 cards on the table, and the top card is 9♣
+Cards in hand: 1)4♠ 2)6♥
+Choose a card to play (1-2):
+> 1
+
+2 cards on the table, and the top card is 4♠
+3♦
+Computer plays 3♦
+
+3 cards on the table, and the top card is 3♦
+Cards in hand: 1)6♥
+Choose a card to play (1-1):
+> 1
+
+4 cards on the table, and the top card is 6♥
+7♥ Q♦ A♥ Q♣ 5♦ 5♣
+Computer plays A♥
+Computer wins cards
+Score: Player 4 - Computer 2
+Cards: Player 7 - Computer 10
+No cards on the table
+Cards in hand: 1)K♣ 2)3♥ 3)7♦ 4)A♠ 5)9♠ 6)5♥
+Choose a card to play (1-6):
+> 4
+
+1 cards on the table, and the top card is A♠
+7♥ Q♦ Q♣ 5♦ 5♣
+Computer plays 5♦
+
+2 cards on the table, and the top card is 5♦
+Cards in hand: 1)K♣ 2)3♥ 3)7♦ 4)9♠ 5)5♥
+Choose a card to play (1-5):
+> 2
+
+3 cards on the table, and the top card is 3♥
+7♥ Q♦ Q♣ 5♣
+Computer plays 7♥
+Computer wins cards
+Score: Player 4 - Computer 3
+Cards: Player 7 - Computer 14
+No cards on the table
+Cards in hand: 1)K♣ 2)7♦ 3)9♠ 4)5♥
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is K♣
+Q♦ Q♣ 5♣
+Computer plays Q♣
+Computer wins cards
+Score: Player 4 - Computer 5
+Cards: Player 7 - Computer 16
+No cards on the table
+Cards in hand: 1)7♦ 2)9♠ 3)5♥
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 7♦
+Q♦ 5♣
+Computer plays Q♦
+Computer wins cards
+Score: Player 4 - Computer 6
+Cards: Player 7 - Computer 18
+No cards on the table
+Cards in hand: 1)9♠ 2)5♥
+Choose a card to play (1-2):
+> 1
+
+1 cards on the table, and the top card is 9♠
+5♣
+Computer plays 5♣
+
+2 cards on the table, and the top card is 5♣
+Cards in hand: 1)5♥
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 4 - Computer 6
+Cards: Player 10 - Computer 18
+No cards on the table
+A♦ 2♥ K♠ 3♣ 5♠ 8♥
+Computer plays 2♥
+
+1 cards on the table, and the top card is 2♥
+Cards in hand: 1)J♠ 2)2♦ 3)9♥ 4)2♣ 5)Q♥ 6)10♥
+Choose a card to play (1-6):
+> 3
+Player wins cards
+Score: Player 4 - Computer 6
+Cards: Player 12 - Computer 18
+No cards on the table
+A♦ K♠ 3♣ 5♠ 8♥
+Computer plays K♠
+
+1 cards on the table, and the top card is K♠
+Cards in hand: 1)J♠ 2)2♦ 3)2♣ 4)Q♥ 5)10♥
+Choose a card to play (1-5):
+> 4
+
+2 cards on the table, and the top card is Q♥
+A♦ 3♣ 5♠ 8♥
+Computer plays 8♥
+Computer wins cards
+Score: Player 4 - Computer 8
+Cards: Player 12 - Computer 21
+No cards on the table
+Cards in hand: 1)J♠ 2)2♦ 3)2♣ 4)10♥
+Choose a card to play (1-4):
+> 2
+
+1 cards on the table, and the top card is 2♦
+A♦ 3♣ 5♠
+Computer plays A♦
+Computer wins cards
+Score: Player 4 - Computer 9
+Cards: Player 12 - Computer 23
+No cards on the table
+Cards in hand: 1)J♠ 2)2♣ 3)10♥
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is J♠
+3♣ 5♠
+Computer plays 5♠
+Computer wins cards
+Score: Player 4 - Computer 10
+Cards: Player 12 - Computer 25
+No cards on the table
+Cards in hand: 1)2♣ 2)10♥
+Choose a card to play (1-2):
+> 1
+
+1 cards on the table, and the top card is 2♣
+3♣
+Computer plays 3♣
+Computer wins cards
+Score: Player 4 - Computer 10
+Cards: Player 12 - Computer 27
+No cards on the table
+Cards in hand: 1)10♥
+Choose a card to play (1-1):
+> 1
+
+1 cards on the table, and the top card is 10♥
+10♦ 4♥ 8♦ 8♣ J♥ 6♠
+Computer plays 4♥
+Computer wins cards
+Score: Player 4 - Computer 11
+Cards: Player 12 - Computer 29
+No cards on the table
+Cards in hand: 1)4♣ 2)K♥ 3)J♣ 4)8♠ 5)10♣ 6)3♠
+Choose a card to play (1-6):
+> 4
+
+1 cards on the table, and the top card is 8♠
+10♦ 8♦ 8♣ J♥ 6♠
+Computer plays 8♦
+Computer wins cards
+Score: Player 4 - Computer 11
+Cards: Player 12 - Computer 31
+No cards on the table
+Cards in hand: 1)4♣ 2)K♥ 3)J♣ 4)10♣ 5)3♠
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is 4♣
+10♦ 8♣ J♥ 6♠
+Computer plays 8♣
+Computer wins cards
+Score: Player 4 - Computer 11
+Cards: Player 12 - Computer 33
+No cards on the table
+Cards in hand: 1)K♥ 2)J♣ 3)10♣ 4)3♠
+Choose a card to play (1-4):
+> 2
+
+1 cards on the table, and the top card is J♣
+10♦ J♥ 6♠
+Computer plays J♥
+Computer wins cards
+Score: Player 4 - Computer 13
+Cards: Player 12 - Computer 35
+No cards on the table
+Cards in hand: 1)K♥ 2)10♣ 3)3♠
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is K♥
+10♦ 6♠
+Computer plays 10♦
+
+2 cards on the table, and the top card is 10♦
+Cards in hand: 1)10♣ 2)3♠
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 7 - Computer 13
+Cards: Player 15 - Computer 35
+No cards on the table
+6♠
+Computer plays 6♠
+
+1 cards on the table, and the top card is 6♠
+Cards in hand: 1)3♠
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 7 - Computer 13
+Cards: Player 17 - Computer 35
+No cards on the table
+Score: Player 7 - Computer 16
+Cards: Player 17 - Computer 35
+Game Over
+Indigo Card Game
+Play first?
+> no
+Initial cards on the table: 8♥ 3♦ Q♣ 2♥
+4 cards on the table, and the top card is 2♥
+Q♦ A♠ 9♦ 3♥ 5♣ 4♣
+Computer plays 3♥
+Computer wins cards
+Score: Player 0 - Computer 1
+Cards: Player 0 - Computer 5
+No cards on the table
+Cards in hand: 1)J♦ 2)2♦ 3)Q♥ 4)9♣ 5)5♥ 6)A♦
+Choose a card to play (1-6):
+> 3
+
+1 cards on the table, and the top card is Q♥
+Q♦ A♠ 9♦ 5♣ 4♣
+Computer plays Q♦
+Computer wins cards
+Score: Player 0 - Computer 3
+Cards: Player 0 - Computer 7
+No cards on the table
+Cards in hand: 1)J♦ 2)2♦ 3)9♣ 4)5♥ 5)A♦
+Choose a card to play (1-5):
+> 1
+
+1 cards on the table, and the top card is J♦
+A♠ 9♦ 5♣ 4♣
+Computer plays 9♦
+Computer wins cards
+Score: Player 0 - Computer 4
+Cards: Player 0 - Computer 9
+No cards on the table
+Cards in hand: 1)2♦ 2)9♣ 3)5♥ 4)A♦
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 2♦
+A♠ 5♣ 4♣
+Computer plays 5♣
+
+2 cards on the table, and the top card is 5♣
+Cards in hand: 1)9♣ 2)5♥ 3)A♦
+Choose a card to play (1-3):
+> 1
+Player wins cards
+Score: Player 0 - Computer 4
+Cards: Player 3 - Computer 9
+No cards on the table
+A♠ 4♣
+Computer plays 4♣
+
+1 cards on the table, and the top card is 4♣
+Cards in hand: 1)5♥ 2)A♦
+Choose a card to play (1-2):
+> 1
+
+2 cards on the table, and the top card is 5♥
+A♠
+Computer plays A♠
+
+3 cards on the table, and the top card is A♠
+Cards in hand: 1)A♦
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 2 - Computer 4
+Cards: Player 7 - Computer 9
+No cards on the table
+9♥ 4♠ A♥ 4♥ 5♠ 3♣
+Computer plays 9♥
+
+1 cards on the table, and the top card is 9♥
+Cards in hand: 1)6♦ 2)10♦ 3)6♣ 4)6♥ 5)10♥ 6)K♣
+Choose a card to play (1-6):
+> 4
+Player wins cards
+Score: Player 2 - Computer 4
+Cards: Player 9 - Computer 9
+No cards on the table
+4♠ A♥ 4♥ 5♠ 3♣
+Computer plays 4♥
+
+1 cards on the table, and the top card is 4♥
+Cards in hand: 1)6♦ 2)10♦ 3)6♣ 4)10♥ 5)K♣
+Choose a card to play (1-5):
+> 1
+
+2 cards on the table, and the top card is 6♦
+4♠ A♥ 5♠ 3♣
+Computer plays 4♠
+
+3 cards on the table, and the top card is 4♠
+Cards in hand: 1)10♦ 2)6♣ 3)10♥ 4)K♣
+Choose a card to play (1-4):
+> 2
+
+4 cards on the table, and the top card is 6♣
+A♥ 5♠ 3♣
+Computer plays 3♣
+Computer wins cards
+Score: Player 2 - Computer 4
+Cards: Player 9 - Computer 14
+No cards on the table
+Cards in hand: 1)10♦ 2)10♥ 3)K♣
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 10♦
+A♥ 5♠
+Computer plays A♥
+
+2 cards on the table, and the top card is A♥
+Cards in hand: 1)10♥ 2)K♣
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 5 - Computer 4
+Cards: Player 12 - Computer 14
+No cards on the table
+5♠
+Computer plays 5♠
+
+1 cards on the table, and the top card is 5♠
+Cards in hand: 1)K♣
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is K♣
+7♦ J♥ Q♠ 9♠ J♠ 8♦
+Computer plays 7♦
+
+3 cards on the table, and the top card is 7♦
+Cards in hand: 1)10♣ 2)4♦ 3)8♣ 4)J♣ 5)7♠ 6)A♣
+Choose a card to play (1-6):
+> 1
+
+4 cards on the table, and the top card is 10♣
+J♥ Q♠ 9♠ J♠ 8♦
+Computer plays 9♠
+
+5 cards on the table, and the top card is 9♠
+Cards in hand: 1)4♦ 2)8♣ 3)J♣ 4)7♠ 5)A♣
+Choose a card to play (1-5):
+> 2
+
+6 cards on the table, and the top card is 8♣
+J♥ Q♠ J♠ 8♦
+Computer plays 8♦
+Computer wins cards
+Score: Player 5 - Computer 6
+Cards: Player 12 - Computer 21
+No cards on the table
+Cards in hand: 1)4♦ 2)J♣ 3)7♠ 4)A♣
+Choose a card to play (1-4):
+> 2
+
+1 cards on the table, and the top card is J♣
+J♥ Q♠ J♠
+Computer plays J♥
+Computer wins cards
+Score: Player 5 - Computer 8
+Cards: Player 12 - Computer 23
+No cards on the table
+Cards in hand: 1)4♦ 2)7♠ 3)A♣
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 4♦
+Q♠ J♠
+Computer plays J♠
+
+2 cards on the table, and the top card is J♠
+Cards in hand: 1)7♠ 2)A♣
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 6 - Computer 8
+Cards: Player 15 - Computer 23
+No cards on the table
+Q♠
+Computer plays Q♠
+
+1 cards on the table, and the top card is Q♠
+Cards in hand: 1)A♣
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is A♣
+8♠ 2♣ 3♠ 6♠ K♠ 2♠
+Computer plays 2♣
+Computer wins cards
+Score: Player 6 - Computer 10
+Cards: Player 15 - Computer 26
+No cards on the table
+Cards in hand: 1)7♣ 2)10♠ 3)K♥ 4)5♦ 5)7♥ 6)K♦
+Choose a card to play (1-6):
+> 3
+
+1 cards on the table, and the top card is K♥
+8♠ 3♠ 6♠ K♠ 2♠
+Computer plays K♠
+Computer wins cards
+Score: Player 6 - Computer 12
+Cards: Player 15 - Computer 28
+No cards on the table
+Cards in hand: 1)7♣ 2)10♠ 3)5♦ 4)7♥ 5)K♦
+Choose a card to play (1-5):
+> 3
+
+1 cards on the table, and the top card is 5♦
+8♠ 3♠ 6♠ 2♠
+Computer plays 8♠
+
+2 cards on the table, and the top card is 8♠
+Cards in hand: 1)7♣ 2)10♠ 3)7♥ 4)K♦
+Choose a card to play (1-4):
+> 1
+
+3 cards on the table, and the top card is 7♣
+3♠ 6♠ 2♠
+Computer plays 2♠
+
+4 cards on the table, and the top card is 2♠
+Cards in hand: 1)10♠ 2)7♥ 3)K♦
+Choose a card to play (1-3):
+> 1
+Player wins cards
+Score: Player 7 - Computer 12
+Cards: Player 20 - Computer 28
+No cards on the table
+3♠ 6♠
+Computer plays 6♠
+
+1 cards on the table, and the top card is 6♠
+Cards in hand: 1)7♥ 2)K♦
+Choose a card to play (1-2):
+> 1
+
+2 cards on the table, and the top card is 7♥
+3♠
+Computer plays 3♠
+
+3 cards on the table, and the top card is 3♠
+Cards in hand: 1)K♦
+Choose a card to play (1-1):
+> 1
+
+4 cards on the table, and the top card is K♦
+Score: Player 8 - Computer 15
+Cards: Player 24 - Computer 28
+Game Over
+Indigo Card Game
+Play first?
+> no
+Initial cards on the table: J♦ K♣ K♦ K♥
+4 cards on the table, and the top card is K♥
+A♥ 8♠ 5♠ A♣ Q♦ 2♣
+Computer plays A♥
+Computer wins cards
+Score: Player 0 - Computer 5
+Cards: Player 0 - Computer 5
+No cards on the table
+Cards in hand: 1)10♣ 2)5♦ 3)6♥ 4)J♣ 5)10♠ 6)7♣
+Choose a card to play (1-6):
+> 1
+
+1 cards on the table, and the top card is 10♣
+8♠ 5♠ A♣ Q♦ 2♣
+Computer plays 2♣
+Computer wins cards
+Score: Player 0 - Computer 6
+Cards: Player 0 - Computer 7
+No cards on the table
+Cards in hand: 1)5♦ 2)6♥ 3)J♣ 4)10♠ 5)7♣
+Choose a card to play (1-5):
+> 3
+
+1 cards on the table, and the top card is J♣
+8♠ 5♠ A♣ Q♦
+Computer plays A♣
+Computer wins cards
+Score: Player 0 - Computer 8
+Cards: Player 0 - Computer 9
+No cards on the table
+Cards in hand: 1)5♦ 2)6♥ 3)10♠ 4)7♣
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 5♦
+8♠ 5♠ Q♦
+Computer plays Q♦
+Computer wins cards
+Score: Player 0 - Computer 9
+Cards: Player 0 - Computer 11
+No cards on the table
+Cards in hand: 1)6♥ 2)10♠ 3)7♣
+Choose a card to play (1-3):
+> 1
+
+1 cards on the table, and the top card is 6♥
+8♠ 5♠
+Computer plays 5♠
+
+2 cards on the table, and the top card is 5♠
+Cards in hand: 1)10♠ 2)7♣
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 1 - Computer 9
+Cards: Player 3 - Computer 11
+No cards on the table
+8♠
+Computer plays 8♠
+
+1 cards on the table, and the top card is 8♠
+Cards in hand: 1)7♣
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is 7♣
+3♠ 3♦ 7♠ 4♥ J♥ Q♣
+Computer plays Q♣
+Computer wins cards
+Score: Player 1 - Computer 10
+Cards: Player 3 - Computer 14
+No cards on the table
+Cards in hand: 1)9♥ 2)6♣ 3)J♠ 4)4♠ 5)6♦ 6)3♣
+Choose a card to play (1-6):
+> 3
+
+1 cards on the table, and the top card is J♠
+3♠ 3♦ 7♠ 4♥ J♥
+Computer plays 3♠
+Computer wins cards
+Score: Player 1 - Computer 11
+Cards: Player 3 - Computer 16
+No cards on the table
+Cards in hand: 1)9♥ 2)6♣ 3)4♠ 4)6♦ 5)3♣
+Choose a card to play (1-5):
+> 2
+
+1 cards on the table, and the top card is 6♣
+3♦ 7♠ 4♥ J♥
+Computer plays J♥
+
+2 cards on the table, and the top card is J♥
+Cards in hand: 1)9♥ 2)4♠ 3)6♦ 4)3♣
+Choose a card to play (1-4):
+> 1
+Player wins cards
+Score: Player 2 - Computer 11
+Cards: Player 6 - Computer 16
+No cards on the table
+3♦ 7♠ 4♥
+Computer plays 7♠
+
+1 cards on the table, and the top card is 7♠
+Cards in hand: 1)4♠ 2)6♦ 3)3♣
+Choose a card to play (1-3):
+> 1
+Player wins cards
+Score: Player 2 - Computer 11
+Cards: Player 8 - Computer 16
+No cards on the table
+3♦ 4♥
+Computer plays 3♦
+
+1 cards on the table, and the top card is 3♦
+Cards in hand: 1)6♦ 2)3♣
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 2 - Computer 11
+Cards: Player 10 - Computer 16
+No cards on the table
+4♥
+Computer plays 4♥
+
+1 cards on the table, and the top card is 4♥
+Cards in hand: 1)3♣
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is 3♣
+K♠ 5♣ 3♥ 10♥ A♠ 4♦
+Computer plays 5♣
+Computer wins cards
+Score: Player 2 - Computer 11
+Cards: Player 10 - Computer 19
+No cards on the table
+Cards in hand: 1)8♣ 2)10♦ 3)2♦ 4)6♠ 5)4♣ 6)9♠
+Choose a card to play (1-6):
+> 4
+
+1 cards on the table, and the top card is 6♠
+K♠ 3♥ 10♥ A♠ 4♦
+Computer plays A♠
+Computer wins cards
+Score: Player 2 - Computer 12
+Cards: Player 10 - Computer 21
+No cards on the table
+Cards in hand: 1)8♣ 2)10♦ 3)2♦ 4)4♣ 5)9♠
+Choose a card to play (1-5):
+> 2
+
+1 cards on the table, and the top card is 10♦
+K♠ 3♥ 10♥ 4♦
+Computer plays 10♥
+Computer wins cards
+Score: Player 2 - Computer 14
+Cards: Player 10 - Computer 23
+No cards on the table
+Cards in hand: 1)8♣ 2)2♦ 3)4♣ 4)9♠
+Choose a card to play (1-4):
+> 1
+
+1 cards on the table, and the top card is 8♣
+K♠ 3♥ 4♦
+Computer plays 3♥
+
+2 cards on the table, and the top card is 3♥
+Cards in hand: 1)2♦ 2)4♣ 3)9♠
+Choose a card to play (1-3):
+> 1
+
+3 cards on the table, and the top card is 2♦
+K♠ 4♦
+Computer plays 4♦
+Computer wins cards
+Score: Player 2 - Computer 14
+Cards: Player 10 - Computer 27
+No cards on the table
+Cards in hand: 1)4♣ 2)9♠
+Choose a card to play (1-2):
+> 1
+
+1 cards on the table, and the top card is 4♣
+K♠
+Computer plays K♠
+
+2 cards on the table, and the top card is K♠
+Cards in hand: 1)9♠
+Choose a card to play (1-1):
+> 1
+Player wins cards
+Score: Player 3 - Computer 14
+Cards: Player 13 - Computer 27
+No cards on the table
+7♦ Q♥ 5♥ Q♠ 7♥ 2♥
+Computer plays 5♥
+
+1 cards on the table, and the top card is 5♥
+Cards in hand: 1)9♣ 2)8♦ 3)8♥ 4)2♠ 5)A♦ 6)9♦
+Choose a card to play (1-6):
+> 2
+
+2 cards on the table, and the top card is 8♦
+7♦ Q♥ Q♠ 7♥ 2♥
+Computer plays 7♦
+Computer wins cards
+Score: Player 3 - Computer 14
+Cards: Player 13 - Computer 30
+No cards on the table
+Cards in hand: 1)9♣ 2)8♥ 3)2♠ 4)A♦ 5)9♦
+Choose a card to play (1-5):
+> 4
+
+1 cards on the table, and the top card is A♦
+Q♥ Q♠ 7♥ 2♥
+Computer plays 2♥
+
+2 cards on the table, and the top card is 2♥
+Cards in hand: 1)9♣ 2)8♥ 3)2♠ 4)9♦
+Choose a card to play (1-4):
+> 1
+
+3 cards on the table, and the top card is 9♣
+Q♥ Q♠ 7♥
+Computer plays 7♥
+
+4 cards on the table, and the top card is 7♥
+Cards in hand: 1)8♥ 2)2♠ 3)9♦
+Choose a card to play (1-3):
+> 1
+Player wins cards
+Score: Player 4 - Computer 14
+Cards: Player 18 - Computer 30
+No cards on the table
+Q♥ Q♠
+Computer plays Q♠
+
+1 cards on the table, and the top card is Q♠
+Cards in hand: 1)2♠ 2)9♦
+Choose a card to play (1-2):
+> 1
+Player wins cards
+Score: Player 5 - Computer 14
+Cards: Player 20 - Computer 30
+No cards on the table
+Q♥
+Computer plays Q♥
+
+1 cards on the table, and the top card is Q♥
+Cards in hand: 1)9♦
+Choose a card to play (1-1):
+> 1
+
+2 cards on the table, and the top card is 9♦
+Score: Player 6 - Computer 17
+Cards: Player 22 - Computer 30
 Game Over
 ?[1;31m
 Start test 4?[0m
 Indigo Card Game
 Play first?
-> no
-Initial cards on the table: 4♣ J♠ 3♣ 3♦
-4 cards on the table, and the top card is 3♦
-Computer plays 7♦
-Computer wins cards
-Score: Player 0 - Computer 1
-Cards: Player 0 - Computer 5
-No cards on the table
-Cards in hand: 1)K♦ 2)8♣ 3)A♠ 4)10♣ 5)7♠ 6)5♣
-Choose a card to play (1-6):
-> 1
-
-1 cards on the table, and the top card is K♦
-Computer plays 6♠
-
-2 cards on the table, and the top card is 6♠
-Cards in hand: 1)8♣ 2)A♠ 3)10♣ 4)7♠ 5)5♣
-Choose a card to play (1-5):
-> 1
-
-3 cards on the table, and the top card is 8♣
-Computer plays 8♥
-Computer wins cards
-Score: Player 0 - Computer 2
-Cards: Player 0 - Computer 9
-No cards on the table
-Cards in hand: 1)A♠ 2)10♣ 3)7♠ 4)5♣
-Choose a card to play (1-4):
-> 1
-
-1 cards on the table, and the top card is A♠
-Computer plays 2♦
-
-2 cards on the table, and the top card is 2♦
-Cards in hand: 1)10♣ 2)7♠ 3)5♣
-Choose a card to play (1-3):
-> 1
-
-3 cards on the table, and the top card is 10♣
-Computer plays 4♦
-
-4 cards on the table, and the top card is 4♦
-Cards in hand: 1)7♠ 2)5♣
-Choose a card to play (1-2):
-> 1
-
-5 cards on the table, and the top card is 7♠
-Computer plays 9♣
-
-6 cards on the table, and the top card is 9♣
-Cards in hand: 1)5♣
-Choose a card to play (1-1):
-> 1
-Player wins cards
-Score: Player 2 - Computer 2
-Cards: Player 7 - Computer 9
-No cards on the table
-Computer plays J♦
-
-1 cards on the table, and the top card is J♦
-Cards in hand: 1)5♥ 2)6♣ 3)2♥ 4)4♠ 5)A♣ 6)K♣
-Choose a card to play (1-6):
-> 1
-
-2 cards on the table, and the top card is 5♥
-Computer plays 2♠
-
-3 cards on the table, and the top card is 2♠
-Cards in hand: 1)6♣ 2)2♥ 3)4♠ 4)A♣ 5)K♣
-Choose a card to play (1-5):
-> 1
-
-4 cards on the table, and the top card is 6♣
-Computer plays Q♣
-Computer wins cards
-Score: Player 2 - Computer 4
-Cards: Player 7 - Computer 14
-No cards on the table
-Cards in hand: 1)2♥ 2)4♠ 3)A♣ 4)K♣
-Choose a card to play (1-4):
-> 1
-
-1 cards on the table, and the top card is 2♥
-Computer plays 5♦
-
-2 cards on the table, and the top card is 5♦
-Cards in hand: 1)4♠ 2)A♣ 3)K♣
-Choose a card to play (1-3):
-> 1
-
-3 cards on the table, and the top card is 4♠
-Computer plays K♠
-Computer wins cards
-Score: Player 2 - Computer 5
-Cards: Player 7 - Computer 18
-No cards on the table
-Cards in hand: 1)A♣ 2)K♣
-Choose a card to play (1-2):
-> 1
-
-1 cards on the table, and the top card is A♣
-Computer plays 8♠
-
-2 cards on the table, and the top card is 8♠
-Cards in hand: 1)K♣
-Choose a card to play (1-1):
-> 1
-
-3 cards on the table, and the top card is K♣
-Computer plays 7♥
-
-4 cards on the table, and the top card is 7♥
-Cards in hand: 1)10♦ 2)3♥ 3)9♥ 4)5♠ 5)10♥ 6)J♥
-Choose a card to play (1-6):
-> 1
-
-5 cards on the table, and the top card is 10♦
-Computer plays 6♦
-Computer wins cards
-Score: Player 2 - Computer 8
-Cards: Player 7 - Computer 24
-No cards on the table
-Cards in hand: 1)3♥ 2)9♥ 3)5♠ 4)10♥ 5)J♥
-Choose a card to play (1-5):
-> 1
-
-1 cards on the table, and the top card is 3♥
-Computer plays 6♥
-Computer wins cards
-Score: Player 2 - Computer 8
-Cards: Player 7 - Computer 26
-No cards on the table
-Cards in hand: 1)9♥ 2)5♠ 3)10♥ 4)J♥
-Choose a card to play (1-4):
-> 1
-
-1 cards on the table, and the top card is 9♥
-Computer plays Q♥
-Computer wins cards
-Score: Player 2 - Computer 9
-Cards: Player 7 - Computer 28
-No cards on the table
-Cards in hand: 1)5♠ 2)10♥ 3)J♥
-Choose a card to play (1-3):
-> 1
-
-1 cards on the table, and the top card is 5♠
-Computer plays K♥
-
-2 cards on the table, and the top card is K♥
-Cards in hand: 1)10♥ 2)J♥
-Choose a card to play (1-2):
-> 1
-Player wins cards
-Score: Player 4 - Computer 9
-Cards: Player 10 - Computer 28
-No cards on the table
-Computer plays Q♠
-
-1 cards on the table, and the top card is Q♠
-Cards in hand: 1)J♥
-Choose a card to play (1-1):
-> 1
-
-2 cards on the table, and the top card is J♥
-Computer plays 10♠
-
-3 cards on the table, and the top card is 10♠
-Cards in hand: 1)8♦ 2)7♣ 3)A♦ 4)Q♦ 5)9♠ 6)A♥
-Choose a card to play (1-6):
-> 1
-
-4 cards on the table, and the top card is 8♦
-Computer plays 9♦
-Computer wins cards
-Score: Player 4 - Computer 12
-Cards: Player 10 - Computer 33
-No cards on the table
-Cards in hand: 1)7♣ 2)A♦ 3)Q♦ 4)9♠ 5)A♥
-Choose a card to play (1-5):
-> 1
-
-1 cards on the table, and the top card is 7♣
-Computer plays 4♥
-
-2 cards on the table, and the top card is 4♥
-Cards in hand: 1)A♦ 2)Q♦ 3)9♠ 4)A♥
-Choose a card to play (1-4):
-> 1
-
-3 cards on the table, and the top card is A♦
-Computer plays 2♣
-
-4 cards on the table, and the top card is 2♣
-Cards in hand: 1)Q♦ 2)9♠ 3)A♥
-Choose a card to play (1-3):
-> 1
-
-5 cards on the table, and the top card is Q♦
-Computer plays 3♠
-
-6 cards on the table, and the top card is 3♠
-Cards in hand: 1)9♠ 2)A♥
-Choose a card to play (1-2):
-> 1
-Player wins cards
-Score: Player 6 - Computer 12
-Cards: Player 17 - Computer 33
-No cards on the table
-Computer plays J♣
-
-1 cards on the table, and the top card is J♣
-Cards in hand: 1)A♥
-Choose a card to play (1-1):
-> 1
-
-2 cards on the table, and the top card is A♥
-Score: Player 8 - Computer 15
-Cards: Player 19 - Computer 33
-Game Over
-?[1;31m
-Start test 5?[0m
-Indigo Card Game
-Play first?
-> no
-Initial cards on the table: 8♥ 7♣ Q♦ 6♣
-4 cards on the table, and the top card is 6♣
-Computer plays 8♣
-Computer wins cards
-Score: Player 0 - Computer 1
-Cards: Player 0 - Computer 5
-No cards on the table
-Cards in hand: 1)4♦ 2)10♠ 3)9♦ 4)K♠ 5)5♥ 6)2♥
-Choose a card to play (1-6):
-> 6
-
-1 cards on the table, and the top card is 2♥
-Computer plays 3♠
-
-2 cards on the table, and the top card is 3♠
-Cards in hand: 1)4♦ 2)10♠ 3)9♦ 4)K♠ 5)5♥
-Choose a card to play (1-5):
-> 5
-
-3 cards on the table, and the top card is 5♥
-Computer plays A♠
-
-4 cards on the table, and the top card is A♠
-Cards in hand: 1)4♦ 2)10♠ 3)9♦ 4)K♠
-Choose a card to play (1-4):
-> 4
-Player wins cards
-Score: Player 2 - Computer 1
-Cards: Player 5 - Computer 5
-No cards on the table
-Computer plays 7♥
-
-1 cards on the table, and the top card is 7♥
-Cards in hand: 1)4♦ 2)10♠ 3)9♦
-Choose a card to play (1-3):
-> 3
-
-2 cards on the table, and the top card is 9♦
-Computer plays J♣
-
-3 cards on the table, and the top card is J♣
-Cards in hand: 1)4♦ 2)10♠
-Choose a card to play (1-2):
-> 2
-
-4 cards on the table, and the top card is 10♠
-Computer plays K♣
-
-5 cards on the table, and the top card is K♣
-Cards in hand: 1)4♦
-Choose a card to play (1-1):
-> 1
-
-6 cards on the table, and the top card is 4♦
-Computer plays 5♣
-
-7 cards on the table, and the top card is 5♣
-Cards in hand: 1)K♦ 2)Q♠ 3)10♦ 4)10♥ 5)5♠ 6)Q♣
-Choose a card to play (1-6):
-> 6
-Player wins cards
-Score: Player 6 - Computer 1
-Cards: Player 13 - Computer 5
-No cards on the table
-Computer plays 4♣
-
-1 cards on the table, and the top card is 4♣
-Cards in hand: 1)K♦ 2)Q♠ 3)10♦ 4)10♥ 5)5♠
-Choose a card to play (1-5):
-> 5
-
-2 cards on the table, and the top card is 5♠
-Computer plays A♦
-
-3 cards on the table, and the top card is A♦
-Cards in hand: 1)K♦ 2)Q♠ 3)10♦ 4)10♥
-Choose a card to play (1-4):
-> 4
-
-4 cards on the table, and the top card is 10♥
-Computer plays 3♥
-Computer wins cards
-Score: Player 6 - Computer 3
-Cards: Player 13 - Computer 10
-No cards on the table
-Cards in hand: 1)K♦ 2)Q♠ 3)10♦
-Choose a card to play (1-3):
-> 3
-
-1 cards on the table, and the top card is 10♦
-Computer plays K♥
-
-2 cards on the table, and the top card is K♥
-Cards in hand: 1)K♦ 2)Q♠
-Choose a card to play (1-2):
-> 2
-
-3 cards on the table, and the top card is Q♠
-Computer plays 8♠
-Computer wins cards
-Score: Player 6 - Computer 6
-Cards: Player 13 - Computer 14
-No cards on the table
-Cards in hand: 1)K♦
-Choose a card to play (1-1):
-> 1
-
-1 cards on the table, and the top card is K♦
-Computer plays 6♦
-Computer wins cards
-Score: Player 6 - Computer 7
-Cards: Player 13 - Computer 16
-No cards on the table
-Cards in hand: 1)3♣ 2)Q♥ 3)A♣ 4)10♣ 5)3♦ 6)8♦
-Choose a card to play (1-6):
-> 6
-
-1 cards on the table, and the top card is 8♦
-Computer plays 2♠
-
-2 cards on the table, and the top card is 2♠
-Cards in hand: 1)3♣ 2)Q♥ 3)A♣ 4)10♣ 5)3♦
-Choose a card to play (1-5):
-> 5
-
-3 cards on the table, and the top card is 3♦
-Computer plays 4♥
-
-4 cards on the table, and the top card is 4♥
-Cards in hand: 1)3♣ 2)Q♥ 3)A♣ 4)10♣
-Choose a card to play (1-4):
-> 4
-
-5 cards on the table, and the top card is 10♣
-Computer plays 6♥
-
-6 cards on the table, and the top card is 6♥
-Cards in hand: 1)3♣ 2)Q♥ 3)A♣
-Choose a card to play (1-3):
-> 3
-
-7 cards on the table, and the top card is A♣
-Computer plays 2♦
-
-8 cards on the table, and the top card is 2♦
-Cards in hand: 1)3♣ 2)Q♥
-Choose a card to play (1-2):
-> 2
-
-9 cards on the table, and the top card is Q♥
-Computer plays 9♠
-
-10 cards on the table, and the top card is 9♠
-Cards in hand: 1)3♣
-Choose a card to play (1-1):
-> 1
-
-11 cards on the table, and the top card is 3♣
-Computer plays 6♠
-
-12 cards on the table, and the top card is 6♠
-Cards in hand: 1)2♣ 2)4♠ 3)A♥ 4)7♦ 5)J♦ 6)5♦
-Choose a card to play (1-6):
-> 6
-
-13 cards on the table, and the top card is 5♦
-Computer plays 9♣
-
-14 cards on the table, and the top card is 9♣
-Cards in hand: 1)2♣ 2)4♠ 3)A♥ 4)7♦ 5)J♦
-Choose a card to play (1-5):
-> 5
-
-15 cards on the table, and the top card is J♦
-Computer plays J♠
-Computer wins cards
-Score: Player 6 - Computer 12
-Cards: Player 13 - Computer 32
-No cards on the table
-Cards in hand: 1)2♣ 2)4♠ 3)A♥ 4)7♦
-Choose a card to play (1-4):
-> 4
-
-1 cards on the table, and the top card is 7♦
-Computer plays J♥
-
-2 cards on the table, and the top card is J♥
-Cards in hand: 1)2♣ 2)4♠ 3)A♥
-Choose a card to play (1-3):
-> 3
-Player wins cards
-Score: Player 8 - Computer 12
-Cards: Player 16 - Computer 32
-No cards on the table
-Computer plays 7♠
-
-1 cards on the table, and the top card is 7♠
-Cards in hand: 1)2♣ 2)4♠
-Choose a card to play (1-2):
-> 2
-Player wins cards
-Score: Player 8 - Computer 12
-Cards: Player 18 - Computer 32
-No cards on the table
-Computer plays 9♥
-
-1 cards on the table, and the top card is 9♥
-Cards in hand: 1)2♣
-Choose a card to play (1-1):
-> 1
-
-2 cards on the table, and the top card is 2♣
-Score: Player 8 - Computer 15
-Cards: Player 20 - Computer 32
-Game Over
-?[1;31m
-Start test 6?[0m
-Indigo Card Game
-Play first?
 > yes
-Initial cards on the table: Q♥ J♥ 10♠ 7♣
-4 cards on the table, and the top card is 7♣
-Cards in hand: 1)8♣ 2)8♠ 3)2♠ 4)3♠ 5)J♠ 6)6♥
+Initial cards on the table: 6♠ 9♠ A♣ 5♠
+4 cards on the table, and the top card is 5♠
+Cards in hand: 1)4♣ 2)J♦ 3)3♥ 4)K♠ 5)7♥ 6)8♣
 Choose a card to play (1-6):
 > 0
 Choose a card to play (1-6):
